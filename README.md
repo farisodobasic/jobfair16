@@ -1,2 +1,2 @@
-# jobfair16
-JobFAIR 16
+# jobfair
+JobFAIR Ultimate repo
