@@ -194,6 +194,7 @@ body{
 
     color: #909191;
     background-color: #FFFFFF;
+  opacity:0.5;
 /*    position:absolute;*/
 /*    min-height: 100%;*/
 /*    z-index:15;*/
@@ -203,7 +204,18 @@ body{
 }
 .navbar-default{
   background:#fefefe!important;
+  color: black!important;
+  border:0px!important;
+  -webkit-box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  box-shadow: none!important;
+  background-color: transparent!important;
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: black!important;
+}
+
 /*   NERMIN LOGO */
 
         .login-big{
@@ -976,6 +988,8 @@ div.logo a {
         margin-top:20px;
     }
 }
+
+
 
 @media(max-width : 350px )
 {
