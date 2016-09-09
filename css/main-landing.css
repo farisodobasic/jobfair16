@@ -4,6 +4,11 @@
 
 @import url(https://fonts.googleapis.com/css?family=Domine:400,700&subset=latin,latin-ext);
 
+* {
+   margin:0!important;
+   padding:0;
+}
+
 html {
     color: #222;
     font-size: 1em;
@@ -206,6 +211,7 @@ body{
   background:#fefefe!important;
   color: black!important;
   border:0px!important;
+  margin-top: 2%!important;
   -webkit-box-shadow: none!important;
   -moz-box-shadow: none!important;
   box-shadow: none!important;
@@ -213,7 +219,7 @@ body{
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: black!important;
+    color: white!important;
 }
 
 /*   NERMIN LOGO */
@@ -822,55 +828,28 @@ div.logo a {
             margin-left: 730px;
 
 }
-/* end of kompanije prikaz */
-
-
-/*memi baner*/
-
-
 .header-row
 {
+    background-image: url("../img/city-sunny-people-street.jpg");
     margin-top: 100px;
-    height:420px;
+    height:100vh;
     width:100%;
     background-color: #D92528;
-/*    position: absolute;*/
-
-     -moz-transition: all 1s;
-   -o-transition: all 1s;
-   -webkit-transition: all 1s;
-   transition: all 1s;
+    background-size: 100%;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
 }
 
-.header-text
-{
-/*    background-color: #D92528;*/
-    width:50%;
-    float:left;
-/*    border:1px solid black;*/
-    margin-left:45px;
-    margin-top:20px;
+.header-text {
+    position: relative;
+    top: 50%;
+    transform: translate(15%, -50%);
+    float: left;
 }
 
-.header-pic
-{
-    width:40%;
-    height:100%;
-    float:right;
-    overflow: hidden;
-
-    -moz-transition: all 2s;
-    -o-transition: all 2s;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-}
-
-.header-pic img{
-    float: center;
-}
-
-.header-title
-{
+.header-title {
     color:white;
     text-transform: uppercase;
     font-weight: 700;
@@ -1679,7 +1658,7 @@ div.logo a {
 
 .cover-header-profili{
     background:url('../img/cover/profili.jpg') no-repeat center center fixed;
-}}
+}
 
 /**/
 #svi_partneri{
