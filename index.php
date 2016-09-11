@@ -72,7 +72,10 @@
 	        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	        <link rel="shortcut icon" href="favicon.ico?v=2">
 	        <link rel="stylesheet" href="css/normalize.css">
-	        <link rel="stylesheet" href="css/main-landing.css?v=3">
+	        <link rel="stylesheet" href="css/shape-style.css ">
+            <link rel="stylesheet" href="css/main-landing.css">
+            <link rel="stylesheet" href="css/columns.css">
+            <link rel="stylesheet" href="css/normalize.css">
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 

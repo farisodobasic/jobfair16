@@ -1,7 +1,7 @@
 #rectangle
 { 
 	width: 150px; 
-	height: 30px; 
+	height: 37px; 
 	background: #cccccc; 
 	float: left;
 	padding-left: 25px;
@@ -17,7 +17,7 @@
 { 
 	width: 0;
 	height: 0; 
-	border-bottom: 38px solid #cccccc; 
+	border-bottom: 37px solid #cccccc; 
 	border-right: 40px solid transparent; 
 	overflow: hidden;
 }
