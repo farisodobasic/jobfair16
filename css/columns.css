@@ -1,6 +1,6 @@
-#mainWrapper
-{
+#mainWrapper {
 	width:100%;
+	height:100vh;
 	margin-top: 5%;
 }
 
@@ -16,7 +16,7 @@
 {
 	height:90%;
 	margin-left:5%;
-	margin-right: 5%;
+/	margin-right: 5%;
 	
 }
 
@@ -28,6 +28,7 @@
 .columnRight
 {
 	float:right;	
+	margin-right: 5%;
 	
 }
 

@@ -426,15 +426,16 @@ div.logo a {
     display:inline-block;
 }
 
+.logo {
+    position: relative;
+}
+
 #footer {
-/*    position: absolute;*/
-/*    bottom: 0;*/
-    padding-top: 40px;
     margin: auto;
-/*    max-width: 1200px;*/
     width: 100%;
-    padding-bottom:20px;
     background-color: #363738;
+    position: relative;
+    clear: both;
 }
 
 .icons ul li{

@@ -7,26 +7,4 @@
 
 <?php include 'news.php' ?>
 <?php include 'onama.html'; ?>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-<div class="prazan-prostor"><br><br></div>
-
-<div class="prazan-prostor"><br><br></div>
 <?php include 'footer.html'; ?>
