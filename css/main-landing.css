@@ -1226,10 +1226,6 @@ div.logo a {
     margin-top: 25px;
 }
 
-.row-news {
-    min-height: 200px;
-}
-
 .novosti{
     width: 90%;
     margin: auto;
@@ -1261,12 +1257,13 @@ div.logo a {
     overflow: hidden;
 }
 
+
 .novost-tekst{
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
     margin-left: 35px;
     float: left;
-    width: 500px;
+    width: 30vh;
     height: 150px;
     color: #909191;
 /*    font-size: 130%;*/
