@@ -1,9 +1,3 @@
-<?php
-$items = json_decode(file_get_contents('http://www.jobfair.ba/jfapi.php?stream=naslovna&strana=1'));
-?>
-
-
-
 <div class = "novosti">
   <div class="row">
     <div class="col-md-4">
