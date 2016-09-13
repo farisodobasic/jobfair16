@@ -1,6 +1,6 @@
 <div class = "novosti">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
       <div class="img-block">
         <img class="img-novost" src="img/logo/logo.png" alt="">
       </div>
@@ -14,7 +14,7 @@
         <a class="btn btn-default" href="#" role="button" >Opširnije</a>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
       <div class="img-block">
         <img class="img-novost" src="img/logo/logo.png" alt="">
       </div>
@@ -28,7 +28,7 @@
         <a class="btn btn-default" href="#" role="button" >Opširnije</a>
       </div>
     </div>    
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
       <div class="img-block">
         <img class="img-novost" src="img/logo/logo.png" alt="">
       </div>
