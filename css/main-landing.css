@@ -730,7 +730,7 @@ div.logo a {
 /*Menu*/
 #menu {
     position: fixed;
-    top: 0;
+    top: -30px;
     width: 100%;
     height: auto;
     z-index: 1000;
