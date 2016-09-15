@@ -1,0 +1,78 @@
+#mainWrapper {
+	width:100%;
+	height:100vh;
+	position: relative;
+}
+
+#title
+{
+	position: absolute;
+	width: 100vh;
+	border-bottom: 1px solid #cccccc;
+	margin-left: 2%;
+}
+
+#columns
+{
+	height:90%;
+	margin-left:5%;
+	margin-right: 5%;
+	
+}
+
+.columnLeft, .columnMiddle
+{
+	float:left;	
+}
+
+.columnRight
+{
+	float:right;	
+	margin-right: 5%;
+	
+}
+
+.columnMiddle
+{
+	margin-left: 5%;
+}
+
+.column
+{
+	width:30%;
+	height: 100%;
+	
+}
+
+.image
+{
+	display: block;
+	margin: auto;
+	margin-top: 15%;
+	height:27%;
+}
+
+.text
+{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 150%;
+}
+
+.title-text
+{
+	font-size: 17pt;
+	color: rgb(100,100,100);
+}
+
+.title-text-middle
+{
+	font-size: 17pt;
+	color: #c04444;	
+}
+
+.paragraph-text
+{
+	font-size:11pt;
+	color: rgb(100,100,100);
+}

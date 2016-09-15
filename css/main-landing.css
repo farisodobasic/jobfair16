@@ -824,6 +824,17 @@ div.logo a {
             margin-left: 730px;
 
 }
+
+body {
+    position: relative;
+}
+
+.affix {
+    top: -500;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
 .header-row
 {
     background-image: url("../img/city-sunny-people-street.jpg");
