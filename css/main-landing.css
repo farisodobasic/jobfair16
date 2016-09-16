@@ -730,10 +730,10 @@ div.logo a {
 /*Menu*/
 #menu {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
-    height: auto;
-    z-index: 1000;
+    height: 20px;
+    z-index: 100000;
 }
 
 @media(max-width:1200px)
@@ -830,9 +830,14 @@ body {
 }
 
 .affix {
-    top: -500;
+    position: fixed !important;
+    bottom: 800px;
     width: 100%;
-    z-index: 9999 !important;
+    z-index: 10000;
+}
+
+.affix-top {
+    top: 0px;
 }
 
 .header-row
@@ -840,12 +845,9 @@ body {
     background-image: url("../img/city-sunny-people-street.jpg");
     height:100vh;
     width:100%;
+    position: absolute;
     background-color: #D92528;
     background-size: 100%;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    -webkit-transition: all 1s;
-    transition: all 1s;
 }
 
 .header-text {

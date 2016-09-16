@@ -3,6 +3,8 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 100vh;
+    position: static;
 }
 
 
@@ -15,7 +17,6 @@
     border:none;
     overflow: hidden;
 }
-
 
 .novost-tekst{
     font-family: 'Roboto', sans-serif;
