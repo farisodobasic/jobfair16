@@ -1,0 +1,22 @@
+
+.title-text
+{
+	font-size: 17pt;
+	color: rgb(100,100,100);
+}
+
+.title-text-middle
+{
+	font-size: 17pt;
+	color: #c04444;	
+}
+
+#title
+{
+	position: relative;
+	width: 90%;
+	border-bottom: 1px solid #cccccc;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
