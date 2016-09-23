@@ -202,11 +202,17 @@ body{
 /*    margin:0px 0 0 -600px;*/
 /*    padding-bottom: 380px;*/
 }
+/*Faris css BEGIN*/
+.logo-img
+{
+    width: 160px!important;
+}
+/*Faris css END*/
 .navbar-default{
   background:#fefefe!important;
   color: black!important;
   border:0px!important;
-  margin-top: 2%!important;
+  margin-top: 0%!important;
   -webkit-box-shadow: none!important;
   -moz-box-shadow: none!important;
   box-shadow: none!important;
