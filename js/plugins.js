@@ -22,3 +22,14 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+/*Faris function - change menu color on scroll*/
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 100) {
+        $(".navbar-default").addClass("scrolling");
+    } else {
+        $(".navbar-default").removeClass("scrolling");
+    }
+});

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     var offset=250,
     scrollDuration=300; 
     $(window).scroll(function() {
@@ -15,4 +16,6 @@ $(document).ready(function() {
     	$('html, body').animate({
     	    scrollTop: 0}, scrollDuration);
 	})
+
 });
+

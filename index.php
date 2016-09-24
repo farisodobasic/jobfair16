@@ -75,6 +75,7 @@
 	        <link rel="stylesheet" href="css/shape-style.css ">
             <link rel="stylesheet" href="css/novosti.css ">
             <link rel="stylesheet" href="css/main-landing.css">
+            <link rel="stylesheet" type="css/menu-second-css.css">
             <link rel="stylesheet" href="css/title.css">
             <link rel="stylesheet" href="css/onama.css">
             <link rel="stylesheet" href="css/normalize.css">
@@ -123,6 +124,8 @@
 
         <script src="js/main-landing.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/menu.js"></script>
+
 <!--        <script src="js/angular/naslovna.js"></script> -->
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
