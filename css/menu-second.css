@@ -1,0 +1,46 @@
+#menusecond
+{
+	background-color: white!important;
+	font-style: normal;
+	font-family: 'Roboto', sans-serif;
+	text-transform: lowercase!important;
+	padding-top: 10px;
+	box-shadow: none!important;
+	border-bottom: 1px solid #bfbfbf;
+	
+
+}
+
+
+#navbar-nav-second > li > a
+{
+	color: #595959!important;
+	text-transform: none!important;
+	font-size: 15px;
+}
+
+#navbar-nav-second > li
+{
+	padding-right: 10px;
+	right: -30px;
+	/*border-bottom: 2px solid red;*/
+	padding-bottom: 7px;
+	border-bottom: 2px solid transparent;
+}
+
+#navbar-nav-second > li:hover
+{
+	color: red!important;
+	border-bottom: 2px solid red;
+}
+
+#navbar-nav-second > li > a:hover
+{
+	color: red!important;
+}
+
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+  }

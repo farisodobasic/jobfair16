@@ -1,4 +1,4 @@
-<div class = "novosti">
+<div class = "novosti" style = "margin-top:30px;">
   <div class="row">
     <div class="col-md-4 col-sm-12">
       <div class="img-block">

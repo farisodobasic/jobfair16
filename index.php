@@ -62,6 +62,10 @@
 	               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+                        <!--Za affix-->
+                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 
 	        <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -75,10 +79,13 @@
 	        <link rel="stylesheet" href="css/shape-style.css ">
             <link rel="stylesheet" href="css/novosti.css ">
             <link rel="stylesheet" href="css/main-landing.css">
-            <link rel="stylesheet" type="css/menu-second-css.css">
+            <link rel="stylesheet" href="css/menu-second.css">
             <link rel="stylesheet" href="css/title.css">
             <link rel="stylesheet" href="css/onama.css">
             <link rel="stylesheet" href="css/normalize.css">
+            <!--Za affix-->
+              <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+              
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
