@@ -21,7 +21,6 @@
                         <li><a href="<?=$url_home;?>mediji">Mediji</a></li>
                         <li><a href="<?=$url_home;?>ucesnici">Novosti</a></li>
                         <li><a href="<?=$url_home;?>suorganizatori"> Partneri</a></li>
-                        <li><a href="<?=$url_home;?>novosti">Galerija</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                         <li><a href="#postani-partner" >Postani partner</a></li>-->
                         <li><a href="<?=$url_home;?>galerije">Galerija</a></li>

@@ -750,12 +750,12 @@ div.logo a {
 
 /*Menu*/
 #menu {
-    position: fixed;
+    position: absolute;
     top: -30px;
     width: 100%;
     height: auto;
     z-index: 1000;
-
+    background-color: transparent!important;
 }
 
 @media(max-width:1200px)
@@ -907,18 +907,20 @@ div.logo a {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    margin-left: 180%;
+    /*margin-left: 180%;*/
+
     margin-top: -60px;
     height: 40px;
     padding-top: 10px;
 }
 
 .button-oprojektu:hover{
-    font-weight: 600;
+    /*font-weight: 600;*/
     padding-left: 19px;
     padding-right: 19px;
     text-decoration: none;
-    color: #d9d9d9;
+    color: white;
+    background-color: #c42124;
 }
 
 @media(max-width : 1050px )
