@@ -754,7 +754,7 @@ div.logo a {
 /*Menu*/
 #menu {
     position: absolute;
-    top: -30px;
+    top: -20px;
     width: 100%;
     height: auto;
     z-index: 1000;
@@ -763,6 +763,12 @@ div.logo a {
     box-shadow: none!important;
 
 }
+
+#bs-example-navbar-collapse-1
+{
+    margin-top: 20px;
+}
+
 
 @media(max-width:1200px)
 {

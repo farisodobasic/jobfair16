@@ -2,7 +2,7 @@
 { 
 	width: 150px; 
 	height: 42px; 
-	background: #cccccc; 
+	background: #4d4d4d; 
 	float: left;
 	padding-left: 25px;
 	padding-top: 8px;
@@ -17,9 +17,23 @@
 { 
 	width: 0;
 	height: 0; 
-	border-bottom: 42.2px solid #cccccc; 
+	border-bottom: 42.2px solid #4d4d4d; 
 	border-right: 30px solid transparent; 
 	overflow: hidden;
+	float: left;
+}
+
+#parallelogram 
+{
+    width: 50px; 
+    height: 42px; 
+    -webkit-transform: skew(35deg); 
+    -moz-transform: skew(35deg); 
+    transform: skew(35deg);
+    background: #C91619;
+    margin-left: -18px;
+	/*overflow: hidden;*/
+	float: left;
 }
 
 #parent
