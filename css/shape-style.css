@@ -11,6 +11,7 @@
 	font-weight: bold;	
 	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 2px;
+
 }
 
 #triangle-bottomleft
@@ -49,4 +50,5 @@
 #parent
 {
 	overflow: hidden;	
+	margin-left: -15px;
 }
