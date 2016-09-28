@@ -22,7 +22,7 @@
                         <li><a href="<?=$url_home;?>suorganizatori"> Suorganizatori</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                         <li><a href="#postani-partner" >Postani partner</a></li>-->
-                        <li><a href="<?=$url_home;?>galerije">Koncept</a></li>
+                        <!--<li><a href="<?=$url_home;?>galerije">Koncept</a></li>-->
                         <li><a href="<?=$url_home;?>login">Aktivnosti</a></li>
                         <li><a href="<?=$url_home;?>kontakt">Kontakt</a></li>
                     </ul>

@@ -4,5 +4,6 @@
 <?php include 'news.php' ?>	
 <?php include 'onama.html'; ?>
 <?php include 'oprojektu.html'; ?>
+<?php include 'suorganizatori.html'; ?>
 <?php include 'aktivnosti.html'; ?>
 <?php include 'footer.html'; ?>
