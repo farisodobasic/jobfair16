@@ -4,4 +4,5 @@
 <?php echo "<br><br><br>"; ?>
 <?php include 'news.php' ?>
 <?php include 'onama.html'; ?>
+<?php include 'aktivnosti.html'; ?>
 <?php include 'footer.html'; ?>
