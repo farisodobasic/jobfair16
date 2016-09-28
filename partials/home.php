@@ -3,5 +3,6 @@
 <?php include 'menu-second.php'; ?>
 <?php include 'news.php' ?>	
 <?php include 'onama.html'; ?>
+<?php include 'oprojektu.html'; ?>
 <?php include 'aktivnosti.html'; ?>
 <?php include 'footer.html'; ?>

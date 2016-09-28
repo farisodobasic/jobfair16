@@ -7,8 +7,6 @@
 	padding-top: 10px;
 	box-shadow: none!important;
 	border-bottom: 1px solid #bfbfbf;
-	
-
 }
 
 
@@ -32,6 +30,7 @@
 {
 	color: red!important;
 	border-bottom: 2px solid red;
+	
 }
 
 #navbar-nav-second > li > a:hover

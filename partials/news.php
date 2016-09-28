@@ -1,5 +1,16 @@
-<div class = "novosti" style = "margin-top:40px;">
-  <div class="row">
+<div class = "mainWrapper" style = "margin-top:40px;">
+
+  <div id="title" class="col-xs-12" >
+        <div id="parent"  >
+            <div id="rectangle" >
+                Novosti
+            </div>
+            <div id="triangle-bottomleft">
+            </div>
+            <div id = "parallelogram"></div>
+        </div>
+    </div>
+  <div class="row" style="margin-left:5%; margin-right:5%;">
     <div class="col-md-4 col-sm-12">
       <div class="img-block">
         <img class="img-novost" src="img/logo/logo.png" alt="">
