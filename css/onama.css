@@ -4,7 +4,6 @@
 	position: relative;
 }
 
-
 .image
 {
 	display: block;
@@ -22,6 +21,7 @@
 
 .paragraph-text
 {
-	font-size:11pt;
+	font-size:13pt;
+	font-size:1.5vw;
 	color: rgb(100,100,100);
 }
