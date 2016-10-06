@@ -1,50 +1,7 @@
 <!doctype html>
-
-<?php
-    //$url_home = 'http://www.jobfair.ba/';
-	$url_home = 'http://www.jobfair.ba/';
-
-	/* Sending mail */
-    $url_home = 'http://www.jobfair.ba/';
-	//$url_home = 'http://www.jobfair.ba/';
-
-	/* Sending mail */
-	if(isset($_POST['send'])){
-		$ime 	= $_POST['name'];
-		$email  = $_POST['email'];
-		$poruka = $_POST['message'];
-
-		if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $primi = array(
-                'mirza.ohranovic@gmail.com',
-                'edita.milisic@gmail.com',
-                'nejra.spahic@gmail.com'
-            );
-
-			$subject = '[JobFAIR] Kontakt forma';
-			$eol = PHP_EOL;
-
-			$message = '<html><body>';
-			$message .= 'Od '.$ime.'<br />';
-			$message .= 'Email: '.$email.'<br /><br />';
-			$message .= $poruka;
-			$message .= '</body></html>';
-
-			$headers = 'From: JobFAIR.ba <noreply@jobfair.ba> ' . "\r\n" .
-							'Reply-To: JobFAIR.ba <noreply@jobfair.ba>' . "\r\n" .
-							'X-Mailer: PHP/' . phpversion();
-			$headers .= "MIME-Version: 1.0\r\n";
-			$headers .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
-            $headers .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
-
-            foreach($primi as $to){
-				mail($to, $subject, $message, $headers);
-            }
-
-            echo '<script>alert("Uspješno ste poslali mail!");</script>';
-        }
-	}
-?>
+<?php 
+ $url_home = 'http://www.jobfair.ba/';
+ ?>
 <html class="no-js" lang="" ng-app="jfApp">
     <head>
 	        <meta charset="utf-8">
@@ -88,7 +45,7 @@
             <link rel="stylesheet" href="css/post.css">
             <!--Za affix-->
               <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+              
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -124,9 +81,7 @@
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
 
-				
-        	<?php include('partials/home.php'); ?>
-
+        <?php include('partials/post.php'); ?>
 
         <script type="text/javascript">
             $(document).ready(function() {
