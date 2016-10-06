@@ -1,4 +1,4 @@
-<nav class="navbar-default" data-spy="affix" data-offset-top="630" id="menusecond" style="border-radius:0px">
+<nav class="navbar-default" data-spy="affix" data-offset-top="658" id="menusecond" style="border-radius:0px">
     <div class="container">
        
            

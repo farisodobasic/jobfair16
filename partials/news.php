@@ -1,4 +1,4 @@
-<div class = "mainWrapper" style = "margin-top:40px;">
+<div class = "mainWrapper" style = "margin-top:3%">
 
   <div id="title" class="col-xs-12" >
         <div id="parent"  >

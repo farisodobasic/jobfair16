@@ -21,7 +21,9 @@
 
 .paragraph-text
 {
-	font-size:13pt;
+	/*font-size:13pt;
 	font-size:1.5vw;
+	color: rgb(100,100,100);*/
+	font-size:11pt;
 	color: rgb(100,100,100);
 }

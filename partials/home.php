@@ -5,7 +5,8 @@
 <?php include 'onama.html'; ?>
 <?php include 'timeline.html'; ?>
 <?php include 'oprojektu.html'; ?>
-<?php include 'suorganizatori.html'; ?>
+
 <?php include 'aktivnosti.html'; ?>
+<?php include 'suorganizatori.html'; ?>
 <?php include 'footer.html'; ?>
 
