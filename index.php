@@ -87,7 +87,7 @@
             <link rel="stylesheet" href="css/timeline.css">
             <!--Za affix-->
               <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-              
+
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -123,7 +123,9 @@
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
 
-        <?php include('partials/home.php'); ?>
+				
+        	<?php include('partials/home.php'); ?>
+
 
         <script type="text/javascript">
             $(document).ready(function() {

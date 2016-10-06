@@ -1,35 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=latin-ext';
 #rectangle
-{ 
-	width: 190px; 
-	height: 42px; 
-	background: #737373; 
+{
+	width: 190px;
+	height: 42px;
+	background: #737373;
 	float: left;
 	padding-left: 25px;
 	padding-top: 8px;
 	font-size: 18px;
 	color: white;
-	font-weight: bold;	
-	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif!important;
+	font-weight: 300;
 	letter-spacing: 2px;
 
 }
 
 #triangle-bottomleft
-{ 
+{
 	width: 0;
-	height: 0; 
-	border-bottom: 42.2px solid #737373; 
-	border-right: 30px solid transparent; 
+	height: 0;
+	border-bottom: 42.2px solid #737373;
+	border-right: 30px solid transparent;
 	overflow: hidden;
 	float: left;
 }
 
-#parallelogram 
+#parallelogram
 {
-    width: 40px; 
-    height: 42px; 
-    -webkit-transform: skew(35deg); 
-    -moz-transform: skew(35deg); 
+    width: 40px;
+    height: 42px;
+    -webkit-transform: skew(35deg);
+    -moz-transform: skew(35deg);
     transform: skew(35deg);
     background: #D92528;
     margin-left: -18px;
@@ -38,10 +40,10 @@
 
 #parallelogram-2
 {
-	width: 30px; 
-    height: 42px; 
-    -webkit-transform: skew(35deg); 
-    -moz-transform: skew(35deg); 
+	width: 30px;
+    height: 42px;
+    -webkit-transform: skew(35deg);
+    -moz-transform: skew(35deg);
     transform: skew(35deg);
     background: #D9D9D9;
 	float: left;
@@ -49,6 +51,6 @@
 
 #parent
 {
-	overflow: hidden;	
+	overflow: hidden;
 	margin-left: -15px;
 }

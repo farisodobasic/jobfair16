@@ -1,22 +1,22 @@
-
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=latin-ext';
 .title-text
 {
 	font-size: 17pt;
+	font-family: 'Roboto Slab', serif!important;
 	color: rgb(100,100,100);
 }
 
 .title-text-middle
 {
 	font-size: 17pt;
-	color: #c04444;	
+	color: #c04444;
 }
 
 #title
 {
-	
-	width: 90%;
+
+	width: 100%;
 	border-bottom: 1px solid #cccccc;
-	margin-left: 5%;
-	margin-right: 5%;
+
 	margin-top: 5%;
 }

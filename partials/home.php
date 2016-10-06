@@ -1,12 +1,14 @@
 <?php include 'menu.php'; ?>
 <?php include 'baner.html'; ?>
 <?php include 'menu-second.php'; ?>
-<?php include 'news.php' ?>	
-<?php include 'onama.html'; ?>
-<?php include 'timeline.html'; ?>
-<?php include 'oprojektu.html'; ?>
-
-<?php include 'aktivnosti.html'; ?>
-<?php include 'suorganizatori.html'; ?>
+<div class="container">
+  <?php include 'news.php' ?>
+  <?php include 'onama.html'; ?>
+</div>
+  <?php include 'timeline.html'; ?>
+<div class="container">
+  <?php include 'oprojektu.html'; ?>
+  <?php include 'aktivnosti.html'; ?>
+  <?php include 'suorganizatori.html'; ?>
+</div>
 <?php include 'footer.html'; ?>
-

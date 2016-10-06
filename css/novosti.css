@@ -1,8 +1,6 @@
-
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=latin-ext';
 .novosti{
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
     height: 100vh;
 }
 
@@ -10,28 +8,21 @@
 .img-block{
     margin-top: 25px;
     float: left;
-    margin-left: 5px;
+
     width: 300px;
-    height: 120px;
+    height: 150px;
     border:none;
     overflow: hidden;
 }
 
 
-.novost-tekst{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 15px;
-    margin-left: 35px;
-    float: left;
-    width: 30vh;
-    height: 150px;
-    color: #909191;
-    font-size:10;
-    font-weight: 300;
-}
 
 .novost{
     position: relative;
+}
+
+.novost-item{
+  height:400px;
 }
 
 .border-novost{
@@ -41,44 +32,27 @@
 
 .img-novost{
     float: left;
-    width: 300px;
+    width: 100%;
     height: auto;
     border:none;
 }
-
-.novost-naslov{
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 0px;
-    font-size:37px;
-    font-weight: 400;
-}
-
-
-.img-novost{
-    float: left;
-    width: 300px;
-    height: auto;
-    border:none;
-}
-
 
 .novost-tekst{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
     margin-top: 15px;
-    margin-left: 35px;
-    float: left;
-    width: 30vh;
-    height: 150px;
+    height:220px;
+
     color: #909191;
     font-size:10;
     font-weight: 300;
 }
 
 .novost-naslov{
-    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
     margin-bottom: 0px;
-    font-size:37px;
-    font-weight: 400;
+    font-size:24px;
+    font-weight: 300;
 }
 
 
