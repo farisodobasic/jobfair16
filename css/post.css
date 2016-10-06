@@ -9,12 +9,13 @@
     height:100vh;
     width:100%;
     background-color: #D92528;
-    
+
     -moz-transition: all 1s;
     -o-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
     position: relative;
+		border-bottom:1px solid #d5d5d5;
 }
 
 .pozadina .shadow
@@ -25,7 +26,7 @@
 	left: 0;
 	right: 0;
 	background: #5D5D5D;
-	opacity: 0.4;
+	opacity: 0.6;
 	z-index: 5;
 }
 .naslov
@@ -44,4 +45,41 @@
 {
 	z-index: 10;
 	position: absolute;
+}
+
+.pozadina .scroll-down{
+	position: absolute;
+	z-index: 7;
+	bottom:15px;;
+	width:130px;
+	left:50%;
+	margin-left: -65px;
+}
+
+.pozadina .scroll-down img{
+	width: 100%;
+}
+
+.post-naslov{
+	color:#566b78;
+	font-family: 'Roboto Slab', serif;
+}
+
+.post-opis{
+	color:#566b78;
+	font-size: 20px;
+	line-height: 32px;
+	border-bottom: 1px solid #d5d5d5;
+	border-top: 1px solid #d5d5d5;
+	padding-bottom:15px;
+	padding-top:15px;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+
+.post-sadrzaj{
+	line-height: 28px;
+	font-size: 16px;
+	color:#566b78;
+	margin-bottom:30px;
 }

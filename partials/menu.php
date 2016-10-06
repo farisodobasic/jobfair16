@@ -10,7 +10,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://jobfair.ba/"><img class="logo-img" src="img/logo/jf-logo-white.png" style="margin-left:-20px;"></a>
+                    <a class="navbar-brand" href="http://jobfair.ba/"><img class="logo-img" src="<?=$url_home;?>img/logo/jf-logo-white.png" style="margin-left:-20px;"></a>
                 </div>
 
 
