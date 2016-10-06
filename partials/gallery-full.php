@@ -2,6 +2,6 @@
 	<?php 
 		include 'menu.php';
 		include 'gallery.php';
-		include 'footer.html'; 
+		include 'footer.php'; 
 	?>
 </div>

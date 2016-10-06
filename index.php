@@ -124,7 +124,7 @@
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
 
-				
+
         	<?php include('partials/home.php'); ?>
 
 
@@ -137,6 +137,7 @@
         <script src="js/main-landing.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/menu.js"></script>
+				<script src="js/main.js"></script>
 
 <!--        <script src="js/angular/naslovna.js"></script> -->
 

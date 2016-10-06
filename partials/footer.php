@@ -22,16 +22,23 @@
       </div>
       <div class="col-md-3 col-sm-12">
         <div class="heading-footer">Posljednje novosti</div>
-
-
-        <a href="#">EESTEC LC Sarajevo Instagram</a>
+        <?php
+          /* Connecting to endpoint */
+          $items = json_decode(file_get_contents('http://api.jobfair.ba/api/posts'));
+        ?>
+        <?php foreach($items as $item){ ?>
+          <a href="<?=$url_home;?>novost/<?=$item->id;?>"><?=$item->naslov;?></a>
+        <?php } ?>
       </div>
       <div class="col-md-3 col-sm-12">
         <div class="heading-footer">Kontakt</div>
 
         <div class="item-footer">Jasmina Bajramović</div>
-        <div class="item-footer">Jasmina Bajramović</div>
+        <div class="item-footer">jasmina.bajramovic@jobfair.ba</div>
         <div class="item-footer smmm">Koordinatorica tima za odnose sa javnošću</div>
+        <div class="item-footer">Danijel Čuturić</div>
+        <div class="item-footer">danijel.cuturic@jobfair.ba</div>
+        <div class="item-footer smmm">Glavni organizator</div>
       </div>
     </div>
   </div>

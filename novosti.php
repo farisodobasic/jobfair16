@@ -111,7 +111,7 @@
         <div class="prazan-prostor"><br><br><br><br><br></div>
         <?php include('partials/news.php'); ?>
         <div class="prazan-prostor"><br><br><br><br><br></div>
-        <?php include('partials/footer.html'); ?>
+        <?php include('partials/footer.php'); ?>
 
         <script type="text/javascript">
             $(document).ready(function() {

@@ -1,5 +1,5 @@
 <?php
 		include 'menu.php';
 		include 'news-more.php';
-		include 'footer.html';
+		include 'footer.php';
 ?>

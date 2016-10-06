@@ -8,7 +8,10 @@
   <?php include 'timeline.html'; ?>
 <div class="container">
   <?php include 'oprojektu.html'; ?>
+</div>
+  <?php include 'counter.html'; ?>
+<div class="container">
   <?php include 'aktivnosti.html'; ?>
   <?php include 'suorganizatori.html'; ?>
 </div>
-<?php include 'footer.html'; ?>
+<?php include 'footer.php'; ?>

@@ -2681,6 +2681,10 @@ div.logo a {
 }
 
 
+.navbar-header{
+  margin:0!important;
+}
+
 @media(max-width:400px){
     #godisnji{
         font-size:16px;
