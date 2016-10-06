@@ -11,15 +11,15 @@
     <head>
 	        <meta charset="utf-8">
 	        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	        <title>JobFAIR | Iskoristi svoju šansu</title>
-	        <meta name="description" content="JobFAIR - Sajam zapošljavanja za studente i diplomce tehničko-tehnoloških fakulteta i ekonomije">
+	        <title>JobFAIR | <?=$item->naslov;?></title>
+	        <meta name="description" content="<?=$item->opis;?>">
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	         	  <meta property="og:type" content="website">
-				  <meta property="og:title" content="JobFAIR | Iskoristi svoju šansu" />
-				  <meta property="og:description" content="JobFAIR - Sajam zapošljavanja za studente i diplomce tehničko-tehnoloških fakulteta i ekonomije" />
-				  <meta property="og:image" content="http://www.jobfair.ba/media/naslovna/jfmedia.v_35.jpg" />
-				  <meta property="og:url" content="<?=$url_home;?>" />
+              <meta property="og:title" content="JobFAIR | <?=$item->naslov;?>" />
+    				  <meta property="og:description" content="<?=$item->opis;?>" />
+				  <meta property="og:image" content="<?=$item->slika;?>" />
+				  <meta property="og:url" content="<?=$url_home;?>novost/<?=$_GET['id'];?>" />
 
 	               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
