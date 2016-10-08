@@ -73,7 +73,20 @@
 	        <link rel="shortcut icon" href="favicon.ico?v=2">
 	        <link rel="stylesheet" href="css/normalize.css">
 	        <link rel="stylesheet" href="css/main-landing.css?v=3">
+<<<<<<< HEAD
 	        <link rel="stylesheet" href="css/login.css?v=3">
+=======
+            <link rel="stylesheet" href="css/shape-style.css ">
+            <link rel="stylesheet" href="css/novosti.css ">
+            <link rel="stylesheet" href="css/main-landing.css">
+            <link rel="stylesheet" href="css/menu-second.css">
+            <link rel="stylesheet" href="css/title.css">
+            <link rel="stylesheet" href="css/onama.css">
+            <link rel="stylesheet" href="css/aktivnosti.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/timeline.css">
+            <link rel="stylesheet" href="css/post.css">
+>>>>>>> 8f80205dd208b0bc97658e3a831f286cb1342d4d
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
