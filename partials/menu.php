@@ -18,14 +18,29 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right" id = "navbarMain">
 
-                        <li><a href="<?=$url_home;?>mediji">Mediji</a></li>
-                        <li><a href="<?=$url_home;?>ucesnici">Novosti</a></li>
-                        <li><a href="<?=$url_home;?>suorganizatori"> Partneri</a></li>
+                        
+                        <!--<li><a href="<?=$url_home;?>ucesnici">Novosti</a></li>-->
+                        <li><a href="#">Novosti</a></li>
+                        <li><a href="#">Mediji</a></li>
+                        <li><a href="#"> Partneri</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                         <li><a href="#postani-partner" >Postani partner</a></li>-->
-                        <li><a href="<?=$url_home;?>galerije">Galerija</a></li>
-                        <li><a href="<?=$url_home;?>login">Login</a></li>
-                        <li><a href="<?=$url_home;?>kontakt">Kontakt</a></li>
+                        <li class = "dropdown">                            
+                            <a href="#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button" aria-haspopup="true" aria-expanded="false">
+                                Galerija</a>
+                            <ul class = "dropdown-menu">
+                                <li><a href="#">2008</a></li>
+                                <li><a href="#">2010</a></li>
+                                <li><a href="#">2011</a></li>
+                                <li><a href="#">2012</a></li>
+                                <li><a href="#">2013</a></li>
+                                <li><a href="#">2014</a></li>
+                                <li><a href="#">2015</a></li>
+                                <li><a href="#">2016</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Kontakt</a></li>
 
 
                     </ul>

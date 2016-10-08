@@ -4,7 +4,7 @@
       <div class="col-md-3 col-sm-12">
         <div class="heading-footer">Jobfair.ba sitemap</div>
 
-        <a href="#">Landing page</a>
+        <a href="http://www.jobfair.ba">Landing page</a>
         <a href="#">Partneri</a>
         <a href="#">Ostavi CV</a>
         <a href="#">Kontakt</a>
@@ -13,12 +13,12 @@
       <div class="col-md-3 col-sm-12">
         <div class="heading-footer">JobFAIR #socialmedia</div>
 
-        <a href="#">Facebook page</a>
+        <a href="https://www.facebook.com/JobfairIskoristiSvojuSansu/?fref=ts">Facebook page</a>
         <a href="#">Twitter</a>
         <a href="#">Linked In</a>
-        <a href="#">EESTEC LC Sarajevo Facebook page</a>
-        <a href="#">EESTEC LC Sarajevo Linked In</a>
-        <a href="#">EESTEC LC Sarajevo Instagram</a>
+        <a href="https://www.facebook.com/eestecsarajevo">EESTEC LC Sarajevo Facebook page</a>
+        <a href="https://ba.linkedin.com/in/eestec-lc-sarajevo-347390a0">EESTEC LC Sarajevo Linked In</a>
+        <a href="https://www.instagram.com/eestec_lc_sarajevo/">EESTEC LC Sarajevo Instagram</a>
       </div>
       <div class="col-md-3 col-sm-12">
         <div class="heading-footer">Posljednje novosti</div>
