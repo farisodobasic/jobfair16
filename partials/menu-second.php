@@ -19,11 +19,12 @@
                           <li><a href="javascript:goToByScroll('novosti-cont');">Novosti</a></li>
                           <li><a href="javascript:goToByScroll('o-nama-cont');">O nama</a></li>
                           <li><a href="javascript:goToByScroll('o-projektu-cont');">O projektu</a></li>
+                          <li><a href="javascript:goToByScroll('aktivnosti-cont');">Aktivnosti</a></li>
                           <li><a href="javascript:goToByScroll('suorganizatori-cont');"> Suorganizatori</a></li>
                           <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                           <li><a href="#postani-partner" >Postani partner</a></li>-->
                           <!--<li><a href="<?=$url_home;?>galerije">Koncept</a></li>-->
-                          <li><a href="javascript:goToByScroll('aktivnosti-cont');">Aktivnosti</a></li>
+                          
 
                       </ul>
                   </div>
