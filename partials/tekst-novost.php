@@ -7,7 +7,7 @@
 			</div>
 
 			<div class="post-sadrzaj">
-				<?=nl2br($item->sadrzaj);?>
+				<?=nl2br($item->sadrzaj;?>
 			</div>
 		</div>
 	</div>

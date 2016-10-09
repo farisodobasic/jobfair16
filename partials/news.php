@@ -3,7 +3,7 @@
   $items = json_decode(file_get_contents('http://api.jobfair.ba/api/posts'));
 ?>
 
-<div class="mainWrapper">
+<div class="mainWrapper novosti-cont">
   <div id="title" class="col-xs-12">
         <div id="parent"  >
             <div id="rectangle" >

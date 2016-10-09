@@ -380,6 +380,14 @@ body{
     {
         width:100%;
     }
+
+    .button-part{
+      margin-top: 170px!important;
+    }
+
+    .navbar-default{
+      display: none!important;
+    }
 }
 
 
@@ -1051,8 +1059,8 @@ div.logo a {
 
     .header-row
     {
-        height:500px;
-        margin-top:75px;
+        height:600px;
+
     }
 
     .navbar-brand > img
@@ -1135,6 +1143,14 @@ div.logo a {
     .cv_partner
     {
         width: 450px;
+    }
+
+    .paragraph-text{
+      font-size: 16pt!important;
+    }
+
+    .title-text{
+      font-size: 20pt!important;
     }
 }
 
@@ -3150,7 +3166,7 @@ div ul li{
     }
 
     .button-part{
-        margin-top:100px!important;
+        margin-top:170px!important;
     }
 }
 

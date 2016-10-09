@@ -15,17 +15,17 @@
 
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="display:none!important;">
                     <ul class="nav navbar-nav navbar-right" id = "navbarMain">
 
-                        
+
                         <!--<li><a href="<?=$url_home;?>ucesnici">Novosti</a></li>-->
                         <li><a href="#">Novosti</a></li>
                         <li><a href="#">Mediji</a></li>
                         <li><a href="#"> Partneri</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                         <li><a href="#postani-partner" >Postani partner</a></li>-->
-                        <li class = "dropdown">                            
+                        <li class = "dropdown">
                             <a href="#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button" aria-haspopup="true" aria-expanded="false">
                                 Galerija</a>
                             <ul class = "dropdown-menu">

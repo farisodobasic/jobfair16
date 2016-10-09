@@ -109,6 +109,6 @@ function goToByScroll(id){
                  id = id.replace("link", "");
                    // Scroll
                   $('html,body').animate({
-                    scrollTop: $("#"+id).offset().top - 50},
+                    scrollTop: $("."+id).offset().top - 50},
                      'slow');
             }
