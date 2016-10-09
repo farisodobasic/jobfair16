@@ -1,7 +1,7 @@
 <!doctype html>
 <?php
  //$url_home = 'http://www.jobfair.ba/';
- $url_home = "http://localhost/jobfair16/";
+ $url_home = "http://www.jobfair.ba/";
  $item = json_decode(file_get_contents('http://api.jobfair.ba/api/post/'.$_GET['id']));
 
  if(!isset($item->naslov)) header('Location: '.$url_home.'404');

@@ -4,7 +4,7 @@
     //$url_home = 'http://www.jobfair.ba/';
 	//$url_home = 'http://www.jobfair.ba/';
 
-	$url_home = 'http://localhost/jf16/';
+	$url_home = 'http://www.jobfair.ba/';
 	/* Sending mail */
     //$url_home = 'http://www.jobfair.ba/';
 	//$url_home = 'http://www.jobfair.ba/';
