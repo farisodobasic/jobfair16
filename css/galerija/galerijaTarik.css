@@ -1,0 +1,57 @@
+.header-galerija
+{
+    background: url("/img/cover/kontakt.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:40vh;
+    width:100%;
+    opacity: 0.7;
+    position: relative;
+
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+
+    border-bottom: 2px solid #C91619;
+}
+ .header-galerija .text {
+  position:absolute;
+  top:50%;
+  margin-top:-15px;
+  height:70px;
+  line-height: 70px;
+  padding-top: 10px;
+  padding-left:40px;
+  padding-right:40px;
+  left: 0;
+
+  background:#363738;
+  opacity: 0.9;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 3%;
+
+  color:white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.album-preview img {
+  //position: static;
+  border-radius: 5px;
+  width: 220px;
+  height: 170px;
+}
+
+#album-container {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+    float: none !important;
+    text-align: left;
+    margin-right: -4px;
+}

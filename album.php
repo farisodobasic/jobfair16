@@ -74,9 +74,11 @@
 	        <link rel="stylesheet" href="css/normalize.css">
 	        <link rel="stylesheet" href="css/main-landing.css?v=3">
 					<!-- Tarik Sahinovic -->
-					<link rel="stylesheet" href="css/galerija/galerijaTarik.css">
+					<link rel="stylesheet" href="css/galerija/blueimp-gallery.min.css">
+					<link rel="stylesheet" href="css/galerija/album.css">
+					<link rel="stylesheet" href="css/galerija/galleryTarik.css">
 					<!-- Kraj -->
-					<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body>
@@ -111,7 +113,8 @@
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
 
-        <?php include('partials/gallery-full.php'); ?>
+        <?php include('partials/album-full.php'); ?>
+
 
         <script type="text/javascript">
             $(document).ready(function() {
