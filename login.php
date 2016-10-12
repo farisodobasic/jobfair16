@@ -76,6 +76,7 @@
 	        <link rel="stylesheet" href="css/login.css?v=3">
             <link rel="stylesheet" href="css/shape-style.css ">
             <link rel="stylesheet" href="css/novosti.css ">
+            
             <link rel="stylesheet" href="css/main-landing.css">
             <link rel="stylesheet" href="css/menu-second.css">
             <link rel="stylesheet" href="css/title.css">
