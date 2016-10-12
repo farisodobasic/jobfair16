@@ -1,4 +1,5 @@
-	<div class="header cover-header cover-header-kontakt">
+	<!--<div class="cover-header-kontakt">-->
+	<div class="header-kontakt">
 		<div class="text">Kontakt</div>
 	</div>
 			<div class="forma">
@@ -59,6 +60,6 @@
 					<p class="broj_mail">lejla.brgulja@jobfair.ba<br>
 										+387 62 266 068</p>
 				</div>
-				
+
                     </div>
 			</div>
