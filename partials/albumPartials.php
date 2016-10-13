@@ -9,43 +9,43 @@
 
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
+    <?php
+      $godina = $_GET['godina'];
+      $coolGodina = substr($godina, 2);
+    ?>
     <div class="header-galerija">
-        <div class="text">Galerije</div>
+        <div class="text">JobFAIR '<?php echo $coolGodina; ?></div>
     </div>
 
     <div id="links">
       <?php
-      $godina = $_GET['godina'];
-  $folder_path = 'img/galerija/'.$godina; //image's folder path
+      $folder_path = 'img/galerija/'.$godina;
 
-  $num_files = glob($folder_path . "*.{JPG,jpg,gif,png,bmp}", GLOB_BRACE);
+      $num_files = glob($folder_path . "*.{JPG,jpg,png}", GLOB_BRACE);
 
-  $folder = opendir($folder_path);
+      $folder = opendir($folder_path);
 
-  if($num_files > 0)
-  {
-   while(false !== ($file = readdir($folder)))
-   {
-    $file_path = $folder_path.'/'.$file;
-    $extension = strtolower(pathinfo($file ,PATHINFO_EXTENSION));
-    if($extension=='jpg' || $extension =='png' || $extension == 'gif' || $extension == 'bmp')
-    {
-     ?>
+      if($num_files > 0)
+      {
+        while(false !== ($file = readdir($folder)))
+        {
+          $file_path = $folder_path.'/'.$file;
+          $extension = strtolower(pathinfo($file ,PATHINFO_EXTENSION));
+          if($extension=='jpg' || $extension =='png')
+          {
+            ?>
               <a href="<?php echo $file_path; ?>" data-gallery>
                 <img src="<?php echo $file_path; ?>">
               </a>
               <?php
-    }
-
-   }
-  }
-  else
-  {
-   echo "<script> alert('the folder was empty !')</script>";
-  }
-  closedir($folder);
-  ?>
+            }
+          }
+        } else
+        {
+          echo "<script> alert('the folder was empty !')</script>";
+        }
+        closedir($folder);
+        ?>
     </div>
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery">

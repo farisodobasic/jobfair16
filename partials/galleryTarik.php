@@ -16,35 +16,47 @@
         <div class="text">Galerije</div>
     </div>
 
-    <?php $godina = 2008; ?>
 
+      <?php
+    $godine = array();
+    $path = "./img/galerija";
+    $dir = new DirectoryIterator($path);
+    $counter = 0;
+    foreach ($dir as $fileinfo) {
+        if ($fileinfo->isDir() && !$fileinfo->isDot()) {
+            $fileName = $fileinfo->getFilename();
+            if($fileName != "img"){
+              $godine[$counter] = $fileinfo->getFilename();
+              $counter++;
+            }
+
+        }
+    }
+    ?>
     <div id="album-container">
-      <div class="container">
-        <div class="row row-centered">
-
-
+        <?php for($i = 0; $i < $counter; $i++) { ?>
             <div class="col-lg-4 col-md-6 col-sm-12 col-centered">
-                <div class="album-preview loading center-block loading-0"   >
+                <div class="album-preview center-block"   >
 
                     <div class="ih-item square effect6 from_top_and_bottom center-block">
-                      <?php echo " <a href= /album.php?godina=$godina > "; ?>
+                      <?php echo " <a href= /album.php?godina=$godine[$i] > "; ?>
 
                             <div class="img">
-                                <img src= ../img/jflogo.jpg />
+                                <img src= ../img/galerija/<?php echo "$godine[$i]"?>/cover.jpg />
+                                <!-- Dakle u folder albuma se stavlja slika koja ce predstavljati album na galerije.php
+                                      naziv slike je logicno "cover.jpg" -->
                             </div>
-                      <!--
+
                             <div class="info">
-                                <h3> Day1</h3>
-                                <p>The arrivals and the welcoming party</p>
+                                <h3> JobFAIR '<?php echo substr($godine[$i], 2); ?>  </h3>
                             </div>
-                          -->
+
 
                       </a>
                     </div>
                   </div>
             </div>
-          </div>
-        </div>
+        <?php } ?>
       </div>
 
 <!--

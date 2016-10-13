@@ -47,11 +47,22 @@
 
 #album-container {
   text-align: center;
+  padding: 5vh 5vh 5vh 5vh;
 }
 
+.row-centered {
+  text-align:center;
+}
 .col-centered {
-  display: inline-block;
-    float: none !important;
-    text-align: left;
-    margin-right: -4px;
+  display:inline-block;
+  float:none !important;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+  width: auto;
+}
+
+.Wrapper{
+  padding-top: 50px;
 }
