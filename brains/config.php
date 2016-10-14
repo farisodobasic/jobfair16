@@ -2,7 +2,7 @@
 	session_start();
 	date_default_timezone_set("Europe/Sarajevo");
 
-	$debug = false;
+	$debug = true;
 
 	if($debug) {
 		error_reporting(E_ALL);
@@ -10,12 +10,12 @@
 		ini_set('display_startup_errors',1);
  		error_reporting(-1);
 
-		$url_home = 'http://www.jobfair.ba/';
-		$dir_root = '/var/www/html/jobfair/';
+		$url_home = 'http://localhost/jobfair16/';
+		$dir_root = '/var/www/html/jobfair16/';
 
 		$db_host = 'localhost';
 		$db_user = 'root';
-		$db_pass = '';
+		$db_pass = 'orhan321';
 	}else{
 		$url_home = 'http://www.jobfair.ba/';
 		$dir_root = '/home/eestecsa/src/jobfair14/';
