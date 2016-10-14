@@ -73,7 +73,11 @@
 	        <link rel="shortcut icon" href="favicon.ico?v=2">
 	        <link rel="stylesheet" href="css/normalize.css">
 	        <link rel="stylesheet" href="css/main-landing.css?v=3">
-	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+					<!-- Tarik Sahinovic -->
+					<link rel="stylesheet" href="css/galerija/galerijaTarik.css">
+					<link rel="stylesheet" href="css/galerija/ihover.min.css">
+					<!-- Kraj -->
+					<script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body>

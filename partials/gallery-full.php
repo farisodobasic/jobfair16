@@ -1,7 +1,5 @@
-<div id="screen">
-	<?php 
+	<?php
 		include 'menu.php';
-		include 'gallery.php';
-		include 'footer.php'; 
+		include 'galleryTarik.php';
+		include 'footer.php';
 	?>
-</div>

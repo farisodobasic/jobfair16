@@ -16,10 +16,9 @@
 
 		if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $primi = array(
-                'danijel.cuturic@gmail.com',
+                'mirza.ohranovic@gmail.com',
                 'edita.milisic@gmail.com',
-                'nejra.bahtic@gmail.com',
-                'fodobasic1@gmail.com'
+                'nejra.spahic@gmail.com'
             );
 
 			$subject = '[JobFAIR] Kontakt forma';
@@ -74,17 +73,11 @@
 	        <link rel="shortcut icon" href="favicon.ico?v=2">
 	        <link rel="stylesheet" href="css/normalize.css">
 	        <link rel="stylesheet" href="css/main-landing.css?v=3">
-            <link rel="stylesheet" href="css/shape-style.css ">
-            <link rel="stylesheet" href="css/novosti.css ">
-            <link rel="stylesheet" href="css/main-landing.css">
-            <link rel="stylesheet" href="css/menu-second.css">
-            <link rel="stylesheet" href="css/title.css">
-            <link rel="stylesheet" href="css/onama.css">
-            <link rel="stylesheet" href="css/aktivnosti.css">
-            <link rel="stylesheet" href="css/normalize.css">
-            <link rel="stylesheet" href="css/timeline.css">
-            <link rel="stylesheet" href="css/post.css">
-						<link rel="stylesheet" href="css/kontakt.css">
+					<!-- Tarik Sahinovic -->
+					<link rel="stylesheet" href="css/galerija/blueimp-gallery.min.css">
+					<link rel="stylesheet" href="css/galerija/album.css">
+					<link rel="stylesheet" href="css/galerija/galleryTarik.css">
+					<!-- Kraj -->
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -120,7 +113,8 @@
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
 
-        <?php include('partials/contact-full.php'); ?>
+        <?php include('partials/album-full.php'); ?>
+
 
         <script type="text/javascript">
             $(document).ready(function() {
