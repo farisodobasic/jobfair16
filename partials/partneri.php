@@ -1,6 +1,6 @@
-<div class="header cover-header cover-header-partneri">
-    <div class="text">Partneri i učesnici</div>
-</div>
+<div class="header-partneri">
+    <div class="text">Partneri i učensici</div>
+  </div>
 <!-- obrisati da se otkomentarise
 
 

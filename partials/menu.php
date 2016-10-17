@@ -15,7 +15,7 @@
 
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="display:none!important;">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
                     <ul class="nav navbar-nav navbar-right" id = "navbarMain">
 
 
@@ -39,8 +39,8 @@
                                 <li><a href="#">2016</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="login">Login</a></li>
+                        <li><a href="kontakt">Kontakt</a></li>
 
 
                     </ul>

@@ -85,6 +85,7 @@
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/timeline.css">
             <link rel="stylesheet" href="css/post.css">
+            <link rel="stylesheet" href="css/login.css">
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 

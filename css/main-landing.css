@@ -1768,6 +1768,14 @@ div.logo a {
 #klix-godisnji{
     width: 250px;
     margin-left: 34%;
+
+}
+/*Refa novo*/
+#radiosarajevo-web-pokrovitelj
+{
+    width: 350px;
+    margin-left: 30%;
+    margin-top: 15px;
 }
 #szks-org{
     margin-top: 60px;
@@ -1789,7 +1797,7 @@ div.logo a {
 }
 #radioM-generalni{
     width: 240px;
-    margin-left: 34%;
+    margin-left: 36%;
     margin-top: 20px;
 }
 #api-srebreni{
@@ -1837,7 +1845,7 @@ div.logo a {
 #radio8-pokrovitelj{
     width: 180px;
     margin-left:66%;
-    margin-top: -89px;
+    margin-top: -115px;
 }
 /*ODAVDE DALJE*/
 #alfa-pokrovitelj{
@@ -1877,12 +1885,12 @@ div.logo a {
 #vijesti-pokrovitelj{
     width: 200px;
     margin-left: 8%;
-    margin-top: -30px;
+    margin-top: 0px;
 }
 #sens-pokrovitelj{
-    width: 110px;
-    margin-left:72%;
-    margin-top: -129px;
+    width: 210px;
+    margin-left:68%;
+    margin-top: -100px;
 }
 /*DOOOVDE*/
 
@@ -1951,18 +1959,18 @@ div.logo a {
 }
 #studomat-p{
     width: 140px;
-    margin-left: 6%;
+    margin-left: 15%;
     margin-top: 20px;
 }
 #sutra-p{
     width: 150px;
-    margin-left: 6%;
+    margin-left: 12%;
     margin-top: 20px;
 }
 #haber-p{
     width: 150px;
     margin-top: 15px;
-    margin-left: 6%;
+    margin-left: 12%;
 }
 #tuzlainfo-p{
     width: 160px;
@@ -2048,6 +2056,13 @@ div.logo a {
         width: 210px;
         margin-left: 33%;
     }
+    /*Refa novo*/
+    #radiosarajevo-web-pokrovitelj
+    {
+        margin-top: 15px;
+        width: 310px;
+        margin-left: 30%;   
+    }
 #szks-org{
     margin-top: 60px;
     width: 300px;
@@ -2068,7 +2083,7 @@ div.logo a {
     }
     #radioM-generalni{
     width: 200px;
-    margin-left: 34%;
+    margin-left: 36%;
     }
     #devlogic-srebreni{
         width: 160px;
@@ -2198,18 +2213,18 @@ div.logo a {
 
     #studomat-p{
         width: 110px;
-        margin-left: 6%;
+        margin-left: 15%;
         margin-top: 20px;
     }
     #sutra-p{
         width: 120px;
-        margin-left: 6%;
+        margin-left: 12%;
         margin-top: 20px;
     }
     #haber-p{
         width: 120px;
         margin-top: 15px;
-        margin-left: 6%;
+        margin-left: 12%;
     }
     #tuzlainfo-p{
         width: 130px;
@@ -2263,6 +2278,13 @@ div.logo a {
         width: 140px;
         margin-left: 33%;
     }
+    /*Refa novo*/
+    #radiosarajevo-web-pokrovitelj
+    {
+        margin-top: 15px;
+        width: 240px;
+        margin-left: 30%;
+    }
 #szks-org{
     margin-top: 60px;
     width: 220px;
@@ -2283,7 +2305,7 @@ div.logo a {
     }
     #radioM-generalni{
         width: 140px;
-        margin-left: 33%;
+        margin-left: 35%;
     }
     #api-srebreni{
         width: 100px;
@@ -2332,7 +2354,7 @@ div.logo a {
     #radio8-pokrovitelj{
         width: 115px;
         margin-left: 36%;
-        margin-top: 35px;
+        margin-top: 25px;
     }
     #alfa-pokrovitelj{
         width: 100px;
@@ -2435,18 +2457,18 @@ div.logo a {
     }
     #studomat-p{
         width: 80px;
-        margin-left: 20%;
+        margin-left: 13%;
         margin-top: 20px;
     }
     #sutra-p{
         width: 90px;
-        margin-left: 20%;
+        margin-left: 40%;
         margin-top: 20px;
     }
     #haber-p{
         width: 90px;
         margin-top: 15px;
-        margin-left: 19%;
+        margin-left: 39%;
     }
     #tuzlainfo-p{
         width: 100px;
@@ -2506,6 +2528,12 @@ div.logo a {
         margin-left: 33%;
         margin-top: 10px;
     }
+    #radiosarajevo-web-pokrovitelj
+    {
+        width: 205px;
+        margin-left: 30%;
+        margin-top: 10px;
+    }
 #szks-org{
     margin-top: 30px;
     width: 150px;
@@ -2527,7 +2555,7 @@ div.logo a {
     }
     #radioM-generalni{
         width: 100px;
-        margin-left: 31%;
+        margin-left: 34%;
     }
     #api-srebreni{
         width: 70px;
@@ -2574,7 +2602,7 @@ div.logo a {
     #radio8-pokrovitelj{
         width: 90px;
         margin-left: 33%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     /*adžaaaaaaa*/
     #alfa-pokrovitelj{
@@ -2684,13 +2712,13 @@ div.logo a {
     }
     #sutra-p{
         width: 70px;
-        margin-left: 20%;
+        margin-left: 40%;
         margin-top: 20px;
     }
     #haber-p{
         width: 70px;
         margin-top: 15px;
-        margin-left: 16%;
+        margin-left: 32%;
     }
     #tuzlainfo-p{
         width: 80px;
@@ -2747,6 +2775,12 @@ div.logo a {
     #klix-godisnji{
         width:75px;
         margin-left:28%;
+    }
+    /*Refa novo*/
+    #radiosarajevo-web-pokrovitelj
+    {
+        width: 175px;
+        margin-left: 20%;
     }
     #szks-org{
         margin-top: 20px;
@@ -2817,7 +2851,7 @@ div.logo a {
     #radio8-pokrovitelj{
         width: 70px;
         margin-left: 30%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     #alfa-pokrovitelj{
         width: 70px;
@@ -2917,18 +2951,18 @@ div.logo a {
     }
     #studomat-p{
         width: 50px;
-        margin-left: 13%;
+        margin-left: 16%;
         margin-top: 20px;
     }
     #sutra-p{
         width: 60px;
-        margin-left: 18%;
+        margin-left: 36%;
         margin-top: 20px;
     }
     #haber-p{
         width: 60px;
         margin-top: 15px;
-        margin-left: 11%;
+        margin-left: 22%;
     }
     #tuzlainfo-p{
         width: 70px;

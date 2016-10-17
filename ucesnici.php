@@ -82,7 +82,8 @@
             <link rel="stylesheet" href="css/aktivnosti.css">
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/timeline.css">
-            <link rel="stylesheet" href="css/post.css"
+            <link rel="stylesheet" href="css/post.css">
+            <link rel="stylesheet" href="css/partneri.css">
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 

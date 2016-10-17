@@ -6,7 +6,7 @@
 
         <a href="http://www.jobfair.ba">Landing page</a>
         <a href="#">Partneri</a>
-        <a href="#">Ostavi CV</a>
+        <a href="http://www.jobfair.ba/login">Ostavi CV</a>
         <a href="#">Kontakt</a>
 
       </div>
