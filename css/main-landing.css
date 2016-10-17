@@ -385,9 +385,9 @@ body{
       margin-top: 170px!important;
     }
 
-    .navbar-default{
+    /*.navbar-default{
       display: none!important;
-    }
+    }*/
 }
 
 
@@ -3203,7 +3203,7 @@ div ul li{
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:765px){
     .header-row{
         height:auto!important;
     }
@@ -3213,8 +3213,36 @@ div ul li{
     }
 
     .button-part{
-        margin-top:170px!important;
+        margin-top:200px!important;
     }
+    #bs-example-navbar-collapse-1
+    {
+        top: 60px!important;
+        background-color: white!important;
+    }
+    #navbarMain > li > a
+    {
+        color: #595959!important;
+    }
+
+}
+
+@media only screen and (max-width: 460px){
+    .navbar-collapse
+    {  
+        display: none;
+    }
+    #bs-example-navbar-collapse-1
+    {
+        top: 60px!important;
+        background-color: white!important;
+    }
+    #navbarMain > li > a
+    {
+        color: #595959!important;
+    }
+
+
 }
 
 span.glyphicon-menu-down
