@@ -9,19 +9,19 @@
         <ul id="lista">
           <div class="partneri_box">
              <li>
-                <a href="partials/profil-api.html">
+                <a href="#">
                   <img id="api-godisnji" src="img/komplogo/api1.png" alt="Authority Partners">
                 </a>
               </li>
 
              <li>
-                <a href="http://http://www.microsoft.com/bs-ba/">
+                <a href="#">
                   <img id="micro-godisnji" src="img/kompanije/microsoft.png" alt="Microsoft" >
                 </a>
               </li>
 
              <li>
-              <a href="http://www.redbull.com/">
+              <a href="#">
                 <img id="redbull-godisnji" src="img/kompanije/redbull.png" alt="Red Bull" >
               </a>
             </li>
@@ -53,12 +53,12 @@
         <ul id="lista">
   	       <div class="partneri_box">
               <li>
-                <a href="partials/profil-devlogic.html">
+                <a href="#">
                   <img id="devlogic-srebreni" src="img/komplogo/rubicon.png" alt="Rubicon" >
                 </a>
               </li>
               <li>
-                <a href="partials/profil-infobip.html">
+                <a href="#">
                   <img id="infobip-srebreni" src="img/komplogo/symphony.png" alt="Syphony">
                 </a>
               </li>
@@ -67,12 +67,12 @@
                <br>
                
               <li>
-                <a href="partials/profil-mistral.html">
+                <a href="#">
                   <img id="mistral-srebreni" src="img/komplogo/bht.png" alt="BH Telecom">
                 </a>
               </li>
               <li>
-                <a href="partials/profil-zira.html">
+                <a href="#">
                   <img id="zira-srebreni" src="img/kompanije/zira.png" alt="Zira" >
                 </a>
               </li>
@@ -86,22 +86,22 @@
         <ul id="lista">
   	       <div class="partneri_box">
               <li>
-                <a href="partials/profil-atlantbh.html">
+                <a href="#">
                   <img id="atlant-b" src="img/kompanije/atlant.png" alt="Atlant">
                 </a>
               </li>
               <li>
-                <a href="http://cpe.ba/">
+                <a href="#">
                   <img id="cpe-b" src="img/komplogo/alem.png" alt="ALEM Sistem">
                 </a>
               </li>
               <li>
-                <a href="http://gene.ba/">
+                <a href="#">
                   <img id="gene-b" src="img/kompanije/gene.jpg" alt="GenE">
                 </a>
               </li>
               <li>
-                <a href="partials/profil-gramas.html">
+                <a href="#">
                   <img id="gramas-b" src="img/komplogo/qss.png" alt="QSS">
                 </a>
               </li>
@@ -120,7 +120,7 @@
                 </a>
               </li>-->
               <li>
-                <a href="partials/profil-rubicon.html">
+                <a href="#">
                   <img id="rubicon-b" src="img/komplogo/klika.jpg" alt="Klika">
                 </a>
               </li>
