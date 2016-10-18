@@ -11,6 +11,7 @@
  		error_reporting(-1);
 
 		$url_home = 'http://www.jobfair.ba/';
+		//$url_home = 'http://localhost/jobfair16/';
 		$dir_root = '/var/www/html/jobfair16/';
 
 		$db_host = 'localhost';

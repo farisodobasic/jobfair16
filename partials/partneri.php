@@ -22,7 +22,7 @@
 
              <li>
               <a href="#">
-                <img id="redbull-godisnji" src="img/kompanije/redbull.png" alt="Red Bull" >
+                <img id="redbull-godisnji" src="img/komplogo/infobip.png" alt="Red Bull" >
               </a>
             </li>
           </div>
