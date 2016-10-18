@@ -1,8 +1,8 @@
 RewriteEngine On
 RewriteBase /
 
-#RewriteCond %{HTTP_HOST} !^www [NC]
-#RewriteRule (.*) http://www.%{HTTP_HOST}/$1 [L,R]
+RewriteCond %{HTTP_HOST} !^www [NC]
+RewriteRule (.*) http://www.%{HTTP_HOST}/$1 [L,R]
 
 # allow social media crawlers to work by redirecting them to a server-rendered static version on the page
 RewriteRule ^novost/([^/]*)$ /post.php?id=$1 [L]
