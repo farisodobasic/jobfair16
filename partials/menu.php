@@ -21,8 +21,8 @@
 
                         <!--<li><a href="<?=$url_home;?>ucesnici">Novosti</a></li>-->
                         <li><a href="#">Novosti</a></li>
-                        <li><a href="#">Mediji</a></li>
-                        <li><a href="#"> Partneri</a></li>
+                        <li><a href="mediji">Mediji</a></li>
+                        <li><a href="ucesnici"> Partneri</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                         <li><a href="#postani-partner" >Postani partner</a></li>-->
                         <li class = "dropdown">
