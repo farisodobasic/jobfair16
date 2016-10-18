@@ -10,7 +10,7 @@
           <div class="partneri_box">
              <li>
                 <a href="#">
-                  <img id="api-godisnji" src="img/komplogo/api1.png" alt="Authority Partners">
+                  <img id="api-godisnji" src="img/komplogo/infobip.png" alt="Authority Partners">
                 </a>
               </li>
 
@@ -22,7 +22,7 @@
 
              <li>
               <a href="#">
-                <img id="redbull-godisnji" src="img/komplogo/infobip.png" alt="Red Bull" >
+                <img id="redbull-godisnji" src="img/komplogo/api.png" alt="Red Bull" >
               </a>
             </li>
           </div>
