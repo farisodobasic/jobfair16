@@ -78,7 +78,7 @@
         </div>
         <div class="section" style="padding:0;width:350px;">
           <a href="<?=$url_home;?>user/print-cv.php" class="azuriraj">
-            <div class="overview-icon" style="margin-bottom:-25px;"></div>
+            <div class="edit-icon" style="margin-bottom:-25px;"></div>
             Isprintaj CV
           </a>
         </div>

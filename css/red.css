@@ -448,8 +448,9 @@ img.portrait {
 
 .social {
 	width:135px;
-	float:right;
-	padding-top:10px;
+	float:left;
+	padding-top:50px;
+	margin-left: 40px;
 }
 
 .social ul {
