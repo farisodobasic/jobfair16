@@ -2,7 +2,7 @@
 	session_start();
 	date_default_timezone_set("Europe/Sarajevo");
 
-	$debug = true;
+	$debug = false;
 
 	if($debug) {
 		error_reporting(E_ALL);
@@ -10,7 +10,8 @@
 		ini_set('display_startup_errors',1);
  		error_reporting(-1);
 
-		$url_home = 'http://localhost/jobfair16/';
+		$url_home = 'http://www.jobfair.ba/';
+		//$url_home = 'http://localhost/jobfair16/';
 		$dir_root = '/var/www/html/jobfair16/';
 
 		$db_host = 'localhost';

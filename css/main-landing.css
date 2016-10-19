@@ -385,9 +385,9 @@ body{
       margin-top: 170px!important;
     }
 
-    .navbar-default{
+    /*.navbar-default{
       display: none!important;
-    }
+    }*/
 }
 
 
@@ -1755,7 +1755,7 @@ div.logo a {
 }
 
 #api-godisnji{
-    width:242px;
+    width:257px;
 }
 #micro-godisnji{
     width:392px;
@@ -1768,6 +1768,14 @@ div.logo a {
 #klix-godisnji{
     width: 250px;
     margin-left: 34%;
+
+}
+/*Refa novo*/
+#radiosarajevo-web-pokrovitelj
+{
+    width: 350px;
+    margin-left: 30%;
+    margin-top: 15px;
 }
 #szks-org{
     margin-top: 60px;
@@ -1789,7 +1797,7 @@ div.logo a {
 }
 #radioM-generalni{
     width: 240px;
-    margin-left: 34%;
+    margin-left: 36%;
     margin-top: 20px;
 }
 #api-srebreni{
@@ -1806,7 +1814,7 @@ div.logo a {
 #mistral-srebreni{
     width: 180px;
     margin-left: 22%;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 #zira-srebreni{
     width: 160px;
@@ -1837,7 +1845,7 @@ div.logo a {
 #radio8-pokrovitelj{
     width: 180px;
     margin-left:66%;
-    margin-top: -89px;
+    margin-top: -115px;
 }
 /*ODAVDE DALJE*/
 #alfa-pokrovitelj{
@@ -1877,12 +1885,12 @@ div.logo a {
 #vijesti-pokrovitelj{
     width: 200px;
     margin-left: 8%;
-    margin-top: -30px;
+    margin-top: 0px;
 }
 #sens-pokrovitelj{
-    width: 110px;
-    margin-left:72%;
-    margin-top: -129px;
+    width: 210px;
+    margin-left:68%;
+    margin-top: -100px;
 }
 /*DOOOVDE*/
 
@@ -1914,8 +1922,8 @@ div.logo a {
     margin-left: 6%;
 }
 #rubicon-b{
-    width: 80px;
-    margin-top: -30px;
+    width: 170px;
+    margin-top: -10px;
     margin-left: 9%;
 }
 #tring-b{
@@ -1951,18 +1959,18 @@ div.logo a {
 }
 #studomat-p{
     width: 140px;
-    margin-left: 6%;
+    margin-left: 15%;
     margin-top: 20px;
 }
 #sutra-p{
     width: 150px;
-    margin-left: 6%;
+    margin-left: 12%;
     margin-top: 20px;
 }
 #haber-p{
     width: 150px;
     margin-top: 15px;
-    margin-left: 6%;
+    margin-left: 12%;
 }
 #tuzlainfo-p{
     width: 160px;
@@ -2036,7 +2044,7 @@ div.logo a {
         width: 720px;
     }
     #api-godisnji{
-        width:185px;
+        width:199px;
     }
     #micro-godisnji{
         width:300px;
@@ -2047,6 +2055,13 @@ div.logo a {
     #klix-godisnji{
         width: 210px;
         margin-left: 33%;
+    }
+    /*Refa novo*/
+    #radiosarajevo-web-pokrovitelj
+    {
+        margin-top: 15px;
+        width: 310px;
+        margin-left: 30%;   
     }
 #szks-org{
     margin-top: 60px;
@@ -2068,7 +2083,7 @@ div.logo a {
     }
     #radioM-generalni{
     width: 200px;
-    margin-left: 34%;
+    margin-left: 36%;
     }
     #devlogic-srebreni{
         width: 160px;
@@ -2162,7 +2177,7 @@ div.logo a {
         width: 100px;
     }
     #rubicon-b{
-        width: 60px;
+        width: 150px;
         margin-left: 10%;
     }
     #tring-b{
@@ -2198,18 +2213,18 @@ div.logo a {
 
     #studomat-p{
         width: 110px;
-        margin-left: 6%;
+        margin-left: 15%;
         margin-top: 20px;
     }
     #sutra-p{
         width: 120px;
-        margin-left: 6%;
+        margin-left: 12%;
         margin-top: 20px;
     }
     #haber-p{
         width: 120px;
         margin-top: 15px;
-        margin-left: 6%;
+        margin-left: 12%;
     }
     #tuzlainfo-p{
         width: 130px;
@@ -2250,7 +2265,7 @@ div.logo a {
         margin: auto;
     }
     #api-godisnji{
-        width:125px;
+        width:135px;
     }
     #micro-godisnji{
         width:220px;
@@ -2262,6 +2277,13 @@ div.logo a {
     #klix-godisnji{
         width: 140px;
         margin-left: 33%;
+    }
+    /*Refa novo*/
+    #radiosarajevo-web-pokrovitelj
+    {
+        margin-top: 15px;
+        width: 240px;
+        margin-left: 30%;
     }
 #szks-org{
     margin-top: 60px;
@@ -2283,7 +2305,7 @@ div.logo a {
     }
     #radioM-generalni{
         width: 140px;
-        margin-left: 33%;
+        margin-left: 35%;
     }
     #api-srebreni{
         width: 100px;
@@ -2295,7 +2317,7 @@ div.logo a {
     }
     #infobip-srebreni{
         width: 120px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     #mistral-srebreni{
         width: 110px;
@@ -2332,7 +2354,7 @@ div.logo a {
     #radio8-pokrovitelj{
         width: 115px;
         margin-left: 36%;
-        margin-top: 35px;
+        margin-top: 25px;
     }
     #alfa-pokrovitelj{
         width: 100px;
@@ -2401,7 +2423,7 @@ div.logo a {
         margin-left: 4%;
     }
     #rubicon-b{
-        width: 45px;
+        width: 135px;
     }
     #tring-b{
         width:80px;
@@ -2435,18 +2457,18 @@ div.logo a {
     }
     #studomat-p{
         width: 80px;
-        margin-left: 20%;
+        margin-left: 13%;
         margin-top: 20px;
     }
     #sutra-p{
         width: 90px;
-        margin-left: 20%;
+        margin-left: 40%;
         margin-top: 20px;
     }
     #haber-p{
         width: 90px;
         margin-top: 15px;
-        margin-left: 19%;
+        margin-left: 39%;
     }
     #tuzlainfo-p{
         width: 100px;
@@ -2487,7 +2509,7 @@ div.logo a {
         margin: auto;
     }
     #api-godisnji{
-        width:100px;
+        width:110px;
         margin-left: 30%;
         margin-top: 15px;
     }
@@ -2504,6 +2526,12 @@ div.logo a {
     #klix-godisnji{
         width:105px;
         margin-left: 33%;
+        margin-top: 10px;
+    }
+    #radiosarajevo-web-pokrovitelj
+    {
+        width: 205px;
+        margin-left: 30%;
         margin-top: 10px;
     }
 #szks-org{
@@ -2527,7 +2555,7 @@ div.logo a {
     }
     #radioM-generalni{
         width: 100px;
-        margin-left: 31%;
+        margin-left: 34%;
     }
     #api-srebreni{
         width: 70px;
@@ -2538,6 +2566,7 @@ div.logo a {
     }
     #infobip-srebreni{
         width: 90px;
+
     }
     #mistral-srebreni{
         width: 80px;
@@ -2574,7 +2603,7 @@ div.logo a {
     #radio8-pokrovitelj{
         width: 90px;
         margin-left: 33%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     /*adžaaaaaaa*/
     #alfa-pokrovitelj{
@@ -2641,7 +2670,7 @@ div.logo a {
         margin-left: 1%;
     }
     #rubicon-b{
-        width: 35px;
+        width: 125px;
         margin-left: 10%;
     }
     #tring-b{
@@ -2684,13 +2713,13 @@ div.logo a {
     }
     #sutra-p{
         width: 70px;
-        margin-left: 20%;
+        margin-left: 40%;
         margin-top: 20px;
     }
     #haber-p{
         width: 70px;
         margin-top: 15px;
-        margin-left: 16%;
+        margin-left: 32%;
     }
     #tuzlainfo-p{
         width: 80px;
@@ -2733,7 +2762,7 @@ div.logo a {
         margin: auto;
     }
     #api-godisnji{
-        width:65px;
+        width:75px;
         margin-left: 32%;
     }
     #micro-godisnji{
@@ -2747,6 +2776,12 @@ div.logo a {
     #klix-godisnji{
         width:75px;
         margin-left:28%;
+    }
+    /*Refa novo*/
+    #radiosarajevo-web-pokrovitelj
+    {
+        width: 175px;
+        margin-left: 20%;
     }
     #szks-org{
         margin-top: 20px;
@@ -2817,7 +2852,7 @@ div.logo a {
     #radio8-pokrovitelj{
         width: 70px;
         margin-left: 30%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     #alfa-pokrovitelj{
         width: 70px;
@@ -2878,7 +2913,7 @@ div.logo a {
         margin-left: 7%;
     }
     #rubicon-b{
-        width: 25px;
+        width: 115px;
         margin-left: 27%;
         margin-top: 20px;
     }
@@ -2917,18 +2952,18 @@ div.logo a {
     }
     #studomat-p{
         width: 50px;
-        margin-left: 13%;
+        margin-left: 16%;
         margin-top: 20px;
     }
     #sutra-p{
         width: 60px;
-        margin-left: 18%;
+        margin-left: 36%;
         margin-top: 20px;
     }
     #haber-p{
         width: 60px;
         margin-top: 15px;
-        margin-left: 11%;
+        margin-left: 22%;
     }
     #tuzlainfo-p{
         width: 70px;
@@ -3049,7 +3084,7 @@ div.logo a {
 
         .slika_partneri{
             width:180px;
-            margin-left: 470px;
+            margin-left: 580px;
         }
         .slika_partneri img{
             max-width: 100%;
@@ -3169,7 +3204,7 @@ div ul li{
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:765px){
     .header-row{
         height:auto!important;
     }
@@ -3179,8 +3214,36 @@ div ul li{
     }
 
     .button-part{
-        margin-top:170px!important;
+        margin-top:200px!important;
     }
+    #bs-example-navbar-collapse-1
+    {
+        top: 60px!important;
+        background-color: white!important;
+    }
+    #navbarMain > li > a
+    {
+        color: #595959!important;
+    }
+
+}
+
+@media only screen and (max-width: 460px){
+    .navbar-collapse
+    {  
+        display: none;
+    }
+    #bs-example-navbar-collapse-1
+    {
+        top: 60px!important;
+        background-color: white!important;
+    }
+    #navbarMain > li > a
+    {
+        color: #595959!important;
+    }
+
+
 }
 
 span.glyphicon-menu-down
