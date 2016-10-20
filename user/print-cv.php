@@ -228,7 +228,7 @@
             }
 
 
-          //echo '<li><a class="north" href="javascript:window.print()" title="Print"><img src="../img/test-cv/icn-print.jpg" alt="" /></a></li>';
+          echo '<li><a class="north" href="javascript:window.print()" title="Print"><img src="../img/test-cv/icn-print.jpg" alt="" /></a></li>';
 
             echo '</ul></div>';
 

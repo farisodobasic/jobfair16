@@ -1,6 +1,7 @@
 <?php include 'menu.php'; ?>
 <?php include 'baner.html'; ?>
 <?php include 'menu-second.php'; ?>
+
 <div class="container">
   <?php include 'news.php' ?>
   <?php include 'onama.html'; ?>
