@@ -43,7 +43,10 @@
 
 
 <body>
+
+
    <link type="text/css" rel="stylesheet" href="../css/red.css" />
+
 <link type="text/css" rel="stylesheet" href="../css/print.css" media="print"/>
 
 <!-- Begin Wrapper -->
@@ -102,6 +105,21 @@
             </ul>
           </div>
           <!-- End Personal Information -->
+
+          <div class="social left-col">
+            <div class="section" style="padding:0;width:250px;">
+          <a style= "color:#C0392B;" href="javascript:window.print()" class="azuriraj">
+            <div class="edit-icon" style="margin-bottom:-25px;"></div>
+            Isprintaj CV
+          </a>
+        </div>
+        <div class="section" style="padding:0;width:250px;">
+          <a style= "color:#C0392B;" href="<?=$url_home;?>user/moj-cv.php" class="azuriraj">
+            <div class="overview-icon" style="margin-bottom:-25px;"></div>
+            Nazad
+          </a>
+        </div>
+          </div>
           
         </div>
         
