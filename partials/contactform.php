@@ -1,5 +1,6 @@
 	<!--<div class="cover-header-kontakt">-->
 	<div class="header-kontakt">
+		<div class = "shadow"></div>
 		<div class="text">Kontakt</div>
 	</div>
 			<div class="forma">

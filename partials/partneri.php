@@ -1,11 +1,12 @@
 <div class="header-partneri">
+    <div class = "shadow"></div>
     <div class="text">Partneri i učesnici</div>
   </div>
 
 
 <div id="svi_partneri">
       <div class="c_godisnji">
-        <div id="godisnji">GODIŠNJI PARTNERI</div>
+        <div id="godisnji">GENERALNI GODIŠNJI PARTNERI</div>
         <ul id="lista">
           <div class="partneri_box">
              <li>

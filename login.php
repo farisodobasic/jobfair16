@@ -86,6 +86,7 @@
             <link rel="stylesheet" href="css/timeline.css">
             <link rel="stylesheet" href="css/post.css">
             <link rel="stylesheet" href="css/login.css">
+            <link rel="stylesheet" href="css/post.css">
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -131,6 +132,8 @@
 
         <script src="js/main-landing.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/menu.js"></script>
+                <script src="js/main.js"></script>
 <!--        <script src="js/angular/naslovna.js"></script> -->
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>

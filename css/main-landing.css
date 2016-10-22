@@ -1775,7 +1775,7 @@ div.logo a {
 {
     width: 350px;
     margin-left: 30%;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 #szks-org{
     margin-top: 60px;
@@ -1992,9 +1992,12 @@ div.logo a {
     margin-top: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    color: #CE1F1F;
+    /*color: #CE1F1F;*/
+    color: white;
+    background-color:#CE1F1F;
     font-size: 30px;
     text-align: center;
+    
 }
 #zlatni{
     margin-top: 0px;
@@ -2005,14 +2008,18 @@ div.logo a {
 }
 #srebreni{
     font-family: "Roboto", sans-serif;
-    color:#CE1F1F;
+    /*color:#CE1F1F;*/
+    color: white;
+    background-color:#CE1F1F;
     text-align: center;
     font-size: 24px;
     margin-top: 20px;
 }
 #ucesnici{
     font-family: "Roboto", sans-serif;
-    color:#CE1F1F;
+    /*color:#CE1F1F;*/
+    color: white;
+    background-color:#CE1F1F;
     text-align: center;
     font-size: 21px;
 }
@@ -2281,7 +2288,7 @@ div.logo a {
     /*Refa novo*/
     #radiosarajevo-web-pokrovitelj
     {
-        margin-top: 15px;
+        margin-top: 20px;
         width: 240px;
         margin-left: 30%;
     }
@@ -2532,7 +2539,7 @@ div.logo a {
     {
         width: 205px;
         margin-left: 30%;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 #szks-org{
     margin-top: 30px;
@@ -2990,9 +2997,11 @@ div.logo a {
 
         #partneri{
             font-family: "Roboto", sans-serif;
-            color:#CE1F1F;
+            /*color:#CE1F1F;*/
+            color: white;
+            background-color:#CE1F1F;
             text-align: center;
-            font-size: 15px;
+            font-size: 20px;
         }
 
         #lista{
