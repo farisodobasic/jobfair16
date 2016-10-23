@@ -16,6 +16,7 @@
 
 		if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $primi = array(
+								'danijelcuturic@gmail.com',
                 'mirza.ohranovic@gmail.com',
                 'edita.milisic@gmail.com',
                 'nejra.spahic@gmail.com'

@@ -15,7 +15,7 @@
 
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right" id = "navbarMain">
 
 
@@ -25,20 +25,7 @@
                         <li><a href="ucesnici"> Partneri</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                         <li><a href="#postani-partner" >Postani partner</a></li>-->
-                        <li class = "dropdown">
-                            <a href="#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button" aria-haspopup="true" aria-expanded="false">
-                                Galerija</a>
-                            <ul class = "dropdown-menu">
-                                <li><a href="#">2008</a></li>
-                                <li><a href="#">2010</a></li>
-                                <li><a href="#">2011</a></li>
-                                <li><a href="#">2012</a></li>
-                                <li><a href="#">2013</a></li>
-                                <li><a href="#">2014</a></li>
-                                <li><a href="#">2015</a></li>
-                                <li><a href="#">2016</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="galerija">Galerija</a></li>
                         <li><a href="login">Login</a></li>
                         <li><a href="kontakt">Kontakt</a></li>
 

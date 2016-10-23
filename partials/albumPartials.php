@@ -14,6 +14,7 @@
       $coolGodina = substr($godina, 2);
     ?>
     <div class="header-galerija">
+      <div class = "shadow"></div>
         <div class="text">JobFAIR '<?php echo $coolGodina; ?></div>
     </div>
 
@@ -82,7 +83,7 @@
     </div>
 </div>
 
-<script src="../js/galerija/blueimp-gallery.min.js"></script>
+<script src="./js/galerija/blueimp-gallery.min.js"></script>
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
