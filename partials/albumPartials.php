@@ -9,10 +9,7 @@
 
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-    <?php
-      $godina = $_GET['godina'];
-      $coolGodina = substr($godina, 2);
-    ?>
+
     <div class="header-galerija">
       <div class = "shadow"></div>
         <div class="text">JobFAIR '<?php echo $coolGodina; ?></div>
@@ -20,13 +17,10 @@
 
     <div id="links">
       <?php
-      $folder_path = 'img/galerija/'.$godina;
-
-      $num_files = glob($folder_path . "*.{JPG,jpg,png}", GLOB_BRACE);
 
       $folder = opendir($folder_path);
 
-      if($num_files > 0)
+      if(count($num_files) > 0)
       {
         while(false !== ($file = readdir($folder)))
         {
@@ -43,7 +37,7 @@
           }
         } else
         {
-          echo "<script> alert('the folder was empty !')</script>";
+          echo "<script> alert('Album je prazan !')</script>";
         }
         closedir($folder);
         ?>

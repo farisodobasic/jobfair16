@@ -40,14 +40,22 @@
                 <div class="album-preview center-block"   >
 
                     <div class="ih-item square effect6 from_top_and_bottom center-block">
-                      <?php echo " <a href= album.php?godina=$godine[$i] > "; ?>
+
+                        <?php  echo " <a href= album.php?godina=$godine[$i] > "; ?>
 
                             <div class="img">
-                                <img src= ./img/galerija/<?php echo "$godine[$i]"?>/cover.jpg />
+
+                              <?php
+                                if(count(glob('img/galerija/'.$godine[$i] . '/'. "*.{JPG,jpg,png}", GLOB_BRACE)) > 0) { ?>
+
+                                  <img src= "./img/galerija/<?php echo "$godine[$i]"?>/cover.jpg" />
                                 <!-- Dakle u folder albuma se stavlja slika koja ce predstavljati album na galerije.php
                                       naziv slike je logicno "cover.jpg" -->
-                            </div>
+                                <?php } else { ?>
+                                      <img src="./img/galerija/albumempty1.png" />
+                                <?php } ?>
 
+                            </div>
                             <div class="info">
                                 <h3> JobFAIR '<?php echo substr($godine[$i], 2); ?>  </h3>
                             </div>
@@ -59,6 +67,11 @@
             </div>
         <?php } ?>
       </div>
+
+      <script>
+      function albumEmpty(){
+        alert('Album je trenutno prazan.');
+      }
 
 <!--
     <div class="gallery-all" >
