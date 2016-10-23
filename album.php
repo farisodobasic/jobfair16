@@ -1,8 +1,29 @@
+<?php
+	$url_home = 'http://www.jobfair.ba/';
+	//$url_home = 'http://localhost/jobfair16/';
+
+	$godina = $_GET['godina'];
+	$coolGodina = substr($godina, 2);
+
+	$folder_path = 'img/galerija/'.$godina.'/';
+
+	$num_files = glob($folder_path . "*.{JPG,jpg,png}", GLOB_BRACE);
+
+	$urlGalerija = $url_home.'galerija'; // OVO PROMIJENITI U 'galerije' AKO JE U .htaccess UMJESTO ^galerija$ STAVLJENO ^galerije$
+
+	if(count($num_files) == 0){
+
+			header('Location: '.$urlGalerija);
+			die();
+
+	}
+	?>
+
 <!doctype html>
 
 <?php
     //$url_home = 'http://www.jobfair.ba/';
-	$url_home = 'http://www.jobfair.ba/';
+
 
 	/* Sending mail */
     $url_home = 'http://www.jobfair.ba/';
@@ -16,6 +37,7 @@
 
 		if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $primi = array(
+								'danijelcuturic@gmail.com',
                 'mirza.ohranovic@gmail.com',
                 'edita.milisic@gmail.com',
                 'nejra.spahic@gmail.com'

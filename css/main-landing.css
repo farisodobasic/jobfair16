@@ -4,6 +4,10 @@
 
 @import url(https://fonts.googleapis.com/css?family=Domine:400,700&subset=latin,latin-ext);
 
+#albumi{
+  z-index: 20!important;
+}
+
 html {
     color: #222;
     font-size: 1em;
@@ -407,7 +411,7 @@ body{
         font-weight: bolder;
         font-size: 180%;
         width: 100%;
-        
+
         /* margin-top: 95px; */
     }
 
@@ -1997,7 +2001,7 @@ div.logo a {
     background-color:#CE1F1F;
     font-size: 30px;
     text-align: center;
-    
+
 }
 #zlatni{
     margin-top: 0px;
@@ -2068,7 +2072,7 @@ div.logo a {
     {
         margin-top: 15px;
         width: 310px;
-        margin-left: 30%;   
+        margin-left: 30%;
     }
 #szks-org{
     margin-top: 60px;
@@ -3239,7 +3243,7 @@ div ul li{
 
 @media only screen and (max-width: 460px){
     .navbar-collapse
-    {  
+    {
         display: none;
     }
     #bs-example-navbar-collapse-1
