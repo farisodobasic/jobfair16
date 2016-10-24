@@ -14,7 +14,7 @@
 
     <div class="header-galerija">
       <div class = "shadow"></div>
-        <div class="text">Galerije</div>
+        <div class="text">Galerija</div>
     </div>
 
 
@@ -46,7 +46,7 @@
                             <div class="img">
 
                               <?php
-                                if(count(glob('img/galerija/'.$godine[$i] . '/'. "*.{JPG,jpg,png}", GLOB_BRACE)) > 0) { ?>
+                                if(count(glob('img/galerija/'.$godine[$i] . '/'. "*.{JPG,jpg,png,PNG}", GLOB_BRACE)) > 0) { ?>
 
                                   <img src= "./img/galerija/<?php echo "$godine[$i]"?>/cover.jpg" />
                                 <!-- Dakle u folder albuma se stavlja slika koja ce predstavljati album na galerije.php

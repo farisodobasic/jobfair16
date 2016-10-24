@@ -125,11 +125,11 @@
                   <img id="rubicon-b" src="img/komplogo/klika.jpg" alt="Klika">
                 </a>
               </li>
-              <!--<li>
-                <a href="partials/profil-tring.html">
-                  <img id="tring-b" src="img/kompanije/tring.png" alt="Tring">
+              <li>
+                <a href="#">
+                  <img id="tring-b" src="img/komplogo/systemverif.jpg " alt="System Verification">
                 </a>
-              </li>-->
+              </li>
                <!-- http://www.rubicon-world.com/ -->
 
                 <p style="clear:both;"></p>
@@ -189,7 +189,8 @@
         <div class="c_partneri">
               <h1 id="partneri"> PARTNERI SAJMA </h1>
               <ul id="lista">
-                 <li> <div class="slika_partneri"><img src="img/komplogo/ping.png" alt="Ping"></div></li>
+                 <li> <div id="pin"class="slika_partneri"><img src="img/komplogo/ping.png" alt="Ping"></div></li>
+                 <li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/akademika.png" alt="Ping"></div></li>
 
               </ul>
           </div>
