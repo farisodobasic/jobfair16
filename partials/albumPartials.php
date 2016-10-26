@@ -24,14 +24,17 @@
       {
         while(false !== ($file = readdir($folder)))
         {
-          $file_path = $folder_path.'/'.$file;
+          $file_path = $folder_path.$file;
           $extension = strtolower(pathinfo($file ,PATHINFO_EXTENSION));
           if($extension=='jpg' || $extension =='png')
           {
             ?>
+            <div class="slika">
               <a href="<?php echo $file_path; ?>" data-gallery>
-                <img src="<?php echo $file_path; ?>">
+
+                  <img src="<?php echo $file_path; ?>">
               </a>
+            </div>
               <?php
             }
           }
@@ -77,7 +80,7 @@
     </div>
 </div>
 
-<script src="./js/galerija/blueimp-gallery.min.js"></script>
+<script src="./js/galerija/blueimp-gallery.js"></script>
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;

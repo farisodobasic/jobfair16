@@ -46,12 +46,15 @@
                             <div class="img">
 
                               <?php
-                                if(count(glob('img/galerija/'.$godine[$i] . '/'. "*.{JPG,jpg,png,PNG}", GLOB_BRACE)) > 0) { ?>
+                                //if(count(glob('img/galerija/'.$godine[$i] . '/'. "*.{JPG,jpg,png,PNG}", GLOB_BRACE)) > 0) {
+                                $fi = new FilesystemIterator('img/galerija/'.$godine[$i].'/', FilesystemIterator::SKIP_DOTS);
+                                $pictureCount = iterator_count($fi);
+                                if($pictureCount > 0){ ?>
 
                                   <img src= "./img/galerija/<?php echo "$godine[$i]"?>/cover.jpg" />
                                 <!-- Dakle u folder albuma se stavlja slika koja ce predstavljati album na galerije.php
                                       naziv slike je logicno "cover.jpg" -->
-                                <?php } else { ?>
+                                <?php } else if($pictureCount == 0) { ?>
                                       <img src="./img/galerija/albumempty1.png" />
                                 <?php } ?>
 

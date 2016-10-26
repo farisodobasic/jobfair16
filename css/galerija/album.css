@@ -64,10 +64,17 @@
   }
 
   #links img {
-    height:180px;
-    width:250px;
-    margin-bottom: 10px;
+    height: 180px;
+    width: auto;
     border-radius: 5px;
+    }
+
+  .slika {
+    display: inline-block;
+    height: 180px;
+    width: 250px;
+    margin: 10px 10px 0px 10px;
+
   }
 
   .blueimp-gallery .modal-body {
