@@ -11,7 +11,7 @@
           <div class="partneri_box">
              <li>
                 <a href="#">
-                  <img id="api-godisnji" src="img/komplogo/infobip.png" alt="Authority Partners">
+                  <img id="api-godisnji" src="img/komplogo/infobip.png" alt="Infobip">
                 </a>
               </li>
 
@@ -22,8 +22,9 @@
               </li>
 
              <li>
-              <a href="#">
-                <img id="redbull-godisnji" src="img/komplogo/api.png" alt="Red Bull" >
+              <?php $id = '1'; ?>
+              <a href="<?=$url_home;?>profil/<?=$id;?>">
+                <img id="redbull-godisnji" src="img/komplogo/api.png" alt="API" >
               </a>
             </li>
           </div>
@@ -122,7 +123,7 @@
               </li>-->
               <li>
                 <a href="#">
-                  <img id="rubicon-b" src="img/komplogo/klika.jpg" alt="Klika">
+                  <img id="rubicon-b" src="http://api.jobfair.ba/static/kompanije/22.png" alt="Klika">
                 </a>
               </li>
               <li>

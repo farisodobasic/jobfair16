@@ -3,7 +3,7 @@
  //$url_home = 'http://www.jobfair.ba/';
  //$url_home = "http://www.jobfair.ba/";
 $url_home = 'http://localhost/jobfair16/';
- $item = json_decode(file_get_contents('http://api.jobfair.ba/api/post/'.$_GET['id']));
+ $item = json_decode(file_get_contents('http://api.jobfair.ba/api/kompanije/'.$_GET['id']));
 
  if(!isset($item->naslov)) header('Location: '.$url_home.'404');
 
@@ -87,7 +87,7 @@ $url_home = 'http://localhost/jobfair16/';
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
 
-        <?php include('partials/post.php'); ?>
+        <?php include('partials/profilkompanije.php'); ?>
 
         <script type="text/javascript">
             $(document).ready(function() {
