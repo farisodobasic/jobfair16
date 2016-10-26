@@ -98,7 +98,7 @@
 					<!-- Tarik Sahinovic -->
 					<link rel="stylesheet" href="css/galerija/blueimp-gallery.min.css">
 					<link rel="stylesheet" href="css/galerija/album.css">
-					<link rel="stylesheet" href="css/galerija/galleryTarik.css">
+					<!--<link rel="stylesheet" href="css/galerija/galleryTarik.css">-->
 					<!-- Kraj -->
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
