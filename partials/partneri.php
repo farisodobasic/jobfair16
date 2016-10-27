@@ -191,7 +191,7 @@
               <h1 id="partneri"> PARTNERI SAJMA </h1>
               <ul id="lista">
                  <li> <div id="pin"class="slika_partneri"><img src="img/komplogo/ping.png" alt="Ping"></div></li>
-                 <li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/akademika.png" alt="Ping"></div></li>
+                 <!--<li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/akademika.png" alt="Ping"></div></li>-->
 
               </ul>
           </div>
