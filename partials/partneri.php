@@ -55,12 +55,12 @@
         <ul id="lista">
   	       <div class="partneri_box">
               <li>
-                 <a href="<?=$url_home;?>profil/11>">
+                 <a href="<?=$url_home;?>profil/11">
                   <img id="devlogic-srebreni" src="img/komplogo/rubicon.png" alt="Rubicon" >
                 </a>
               </li>
               <li>
-                 <a href="<?=$url_home;?>profil/18>">
+                 <a href="<?=$url_home;?>profil/18">
                   <img id="infobip-srebreni" src="img/komplogo/symphony.png" alt="Syphony">
                 </a>
               </li>
@@ -74,7 +74,7 @@
                 </a>
               </li>
               <li>
-                 <a href="<?=$url_home;?>profil/15>">>
+                 <a href="<?=$url_home;?>profil/15">>
                   <img id="zira-srebreni" src="img/komplogo/zira.png" alt="Zira" >
                 </a>
               </li>
@@ -99,17 +99,17 @@
               </li>
               <li>
                 
-              <a href="<?=$url_home;?>profil/9>">
+              <a href="<?=$url_home;?>profil/9">
                   <img id="cpe-b" src="img/komplogo/alem.png" alt="ALEM Sistem">
                 </a>
               </li>
               <li>
-                 <a href="<?=$url_home;?>profil/23>">
+                 <a href="<?=$url_home;?>profil/23">
                   <img id="gene-b" src="img/kompanije/gene.jpg" alt="GenE">
                 </a>
               </li>
               <li>
-               <a href="<?=$url_home;?>profil/12>">
+               <a href="<?=$url_home;?>profil/12">
                   <img id="gramas-b" src="img/komplogo/qss.png" alt="QSS">
                 </a>
               </li>
@@ -128,12 +128,12 @@
                 </a>
               </li>-->
               <li>
-                 <a href="<?=$url_home;?>profil/22>">
+                 <a href="<?=$url_home;?>profil/22">
                   <img id="rubicon-b" src="http://api.jobfair.ba/static/kompanije/22.png" alt="Klika">
                 </a>
               </li>
               <li>
-                 <a href="<?=$url_home;?>profil/21>">
+                 <a href="<?=$url_home;?>profil/21">
                   <img id="tring-b" src="img/komplogo/systemverif.jpg " alt="System Verification">
                 </a>
               </li>
