@@ -1824,6 +1824,12 @@ div.logo a {
     width: 160px;
     margin-left: 12%;
 }
+#mistral-srebreni
+{
+   width: 160px;
+    margin-left: 18%; 
+    margin-top: 4%;
+}
 #akta-pokrovitelj{
     width: 150px;
     margin-left: 10%;
@@ -2115,6 +2121,10 @@ div.logo a {
     #zira-srebreni{
         width: 120px;
     }
+    #mistral-srebreni
+    {
+        width: 120px;
+    }
     #akta-pokrovitelj{
         width: 110px;
     }
@@ -2341,6 +2351,10 @@ div.logo a {
         margin-left: 19%;
     }
     #zira-srebreni{
+        width: 100px;
+    }
+    #mistral-srebreni
+    {
         width: 100px;
     }
     #akta-pokrovitelj{
@@ -2593,6 +2607,10 @@ div.logo a {
     #zira-srebreni{
         width: 70px;
     }
+    #mistral-srebreni
+    {
+        width: 70px;
+    }
     #akta-pokrovitelj{
         width: 60px;
         margin-left: 36%;
@@ -2841,6 +2859,11 @@ div.logo a {
     #zira-srebreni{
         width: 50px;
         margin-left: 15%;
+    }
+    #mistral-srebreni
+    {
+        width: 50px;
+        margin-left: 17px;
     }
     #akta-pokrovitelj{
         width: 40px;

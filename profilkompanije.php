@@ -2,25 +2,25 @@
 <?php
  //$url_home = 'http://www.jobfair.ba/';
  //$url_home = "http://www.jobfair.ba/";
-$url_home = 'http://localhost/jobfair16/';
- $item = json_decode(file_get_contents('http://api.jobfair.ba/participants/'.$_GET['id']));
+ $url_home = 'http://localhost/jobfair16/';
+ $item = json_decode(file_get_contents('http://api.jobfair.ba/api/kompanije/'.$_GET['id']));
 
-// if(!isset($item->naslov)) header('Location: '.$url_home.'404');
+ //if(!isset($item->naslov)) header('Location: '.$url_home.'404');
 
  ?>
 <html class="no-js" lang="" ng-app="jfApp">
     <head>
 	        <meta charset="utf-8">
 	        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	     <!--  <title>JobFAIR | <?=//$item->naslov;?></title>
-	       <!-- <meta name="description" content="<?=//$item->opis;?>">
+	        <title>JobFAIR | <?=$item->naslov;?></title>
+	        <meta name="description" content="<?=$item->opis;?>">
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	         	 <!-- <meta property="og:type" content="website">
-              <meta property="og:title" content="JobFAIR | <?=//$item->name;?>" />
-    				  <meta property="og:description" content="<?=//$item->occupation;?>" />
-				  <meta property="og:image" content="<?=//$item->email;?>" />
-				  <meta property="og:url" content="<?=//$url_home;?>profil/<?=//$_GET['id'];?>" />-->
+	         	  <meta property="og:type" content="website">
+              <meta property="og:title" content="JobFAIR | <?=$item->naslov;?>" />
+    				  <meta property="og:description" content="<?=$item->opis;?>" />
+				  <meta property="og:image" content="<?=$item->slika;?>" />
+				  <meta property="og:url" content="<?=$url_home;?>novost/<?=$_GET['id'];?>" />
 
 	               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
