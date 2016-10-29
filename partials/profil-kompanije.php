@@ -3,7 +3,7 @@
 		<div class="text"><?=$item->name;?></div>
 	</div>
 	<div class="container-fluid">
-	<div class="profil-podaci">
+	<div class="profil-podaci" style="margin-top:10%!important">
         <a href="http://www.authoritypartners.com/"><img src="http://api.jobfair.ba/static/kompanije/<?=$item->id;?>.png" style="width:170px; margin-left:18%" class="slika-kompanije" alt="API"></a>
         <div>
             
