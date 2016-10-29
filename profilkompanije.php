@@ -60,6 +60,7 @@
     <body>
 
 
+      <a href="#"class="top"><img src="../img/uparrow.png" align="middle"/></a>
 
          <!-- Add fancyBox -->
     <link rel="stylesheet" href="<?=$url_home;?>fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
