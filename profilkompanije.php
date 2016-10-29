@@ -49,6 +49,8 @@
             <link rel="stylesheet" href="<?=$url_home;?>css/normalize.css">
             <link rel="stylesheet" href="<?=$url_home;?>css/timeline.css">
             <link rel="stylesheet" href="<?=$url_home;?>css/post.css">
+            <link rel="stylesheet" href="<?=$url_home;?>css/profile.css">
+            
             <!--Za affix-->
               <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -87,7 +89,7 @@
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
 
-        <?php include('partials/profilkompanije.php'); ?>
+        <?php include('partials/profile-full.php'); ?>
 
         <script type="text/javascript">
             $(document).ready(function() {
