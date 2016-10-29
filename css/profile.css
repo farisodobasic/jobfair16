@@ -1,6 +1,6 @@
 .header-profil
 {
-    background: url("http://api.jobfair.ba/static/kompanije/<?php $item->id;?>.jpg") no-repeat center center fixed;
+    background: url("../img/cover/profili.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,7 +26,7 @@
   padding-top: 10px;
   padding-left:40px;
   padding-right:40px;
-  left: 43%;
+  left: 35%;
 
   /*background:#363738;
   opacity: 0.9;
