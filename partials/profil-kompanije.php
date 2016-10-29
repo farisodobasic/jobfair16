@@ -2,7 +2,7 @@
 		<div class = "shadow"></div>
 		<div class="text"><?=$item->name;?></div>
 	</div>
-	div class="profil-podaci">
+	<div class="profil-podaci">
         <a href="http://www.authoritypartners.com/"><img src="../img/kompanije/api.png" style="width:170px; margin-left:18%" class="slika-kompanije" alt="API"></a>
         <div>
             
