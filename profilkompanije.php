@@ -49,7 +49,7 @@
             <link rel="stylesheet" href="<?=$url_home;?>css/normalize.css">
             <link rel="stylesheet" href="<?=$url_home;?>css/timeline.css">
             <link rel="stylesheet" href="<?=$url_home;?>css/post.css">
-            <link rel="stylesheet" href="<?=$url_home;?>css/profile.css">
+         <!--   <link rel="stylesheet" href="<?=$url_home;?>css/profile.css">-->
             
             <!--Za affix-->
               <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
