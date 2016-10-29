@@ -6,7 +6,7 @@
 
 	<div class="container-fluid" style="margin-top:13%!important">
 	<div class="profil-podaci" >
-        <a href="http://api.jobfair.ba/static/kompanije/<?=$item->web;?>"><img src="http://api.jobfair.ba/static/kompanije/<?=$item->id;?>.png" style="width:250px; margin-left:18%" class="slika-kompanije" alt="API"></a>
+        <a href="<?=$item->web;?>"><img src="http://api.jobfair.ba/static/kompanije/<?=$item->id;?>.png" style="width:250px; margin-left:18%" class="slika-kompanije" alt="API"></a>
         <div>
             
 
