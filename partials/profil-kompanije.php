@@ -4,7 +4,7 @@
 	</div>
 	<div class="container-fluid">
 	<div class="profil-podaci" style="margin-top:13%!important">
-        <a href="http://www.authoritypartners.com/"><img src="http://api.jobfair.ba/static/kompanije/<?=$item->id;?>.png" style="width:170px; margin-left:18%" class="slika-kompanije" alt="API"></a>
+        <a href="http://www.authoritypartners.com/"><img src="http://api.jobfair.ba/static/kompanije/<?=$item->id;?>.png" style="width:250px; margin-left:18%" class="slika-kompanije" alt="API"></a>
         <div>
             
 
