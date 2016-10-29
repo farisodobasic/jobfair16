@@ -1,4 +1,4 @@
-<div class="header-profil" style="background-image:url(http://api.jobfair.ba/static/kompanije/22.jpg)">
+<div class="header-profil" style="background-image:url(http://api.jobfair.ba/static/kompanije/23.jpg)">
 		<div class = "shadow"></div>
 		<div class="text"><?=$item->name;?></div>
 	</div>
