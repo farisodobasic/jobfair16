@@ -1,8 +1,8 @@
 <!doctype html>
 <?php
  //$url_home = 'http://www.jobfair.ba/';
- //$url_home = "http://www.jobfair.ba/";
-$url_home = 'http://localhost/jobfair16/';
+ $url_home = "http://www.jobfair.ba/";
+//$url_home = 'http://localhost/jobfair16/';
  $item = json_decode(file_get_contents('http://api.jobfair.ba/api/post/'.$_GET['id']));
 
  if(!isset($item->naslov)) header('Location: '.$url_home.'404');
@@ -10,36 +10,36 @@ $url_home = 'http://localhost/jobfair16/';
  ?>
 <html class="no-js" lang="" ng-app="jfApp">
     <head>
-	        <meta charset="utf-8">
-	        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	        <title>JobFAIR | <?=$item->naslov;?></title>
-	        <meta name="description" content="<?=$item->opis;?>">
-	        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset="utf-8">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <title>JobFAIR | <?=$item->naslov;?></title>
+            <meta name="description" content="<?=$item->opis;?>">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	         	  <meta property="og:type" content="website">
+                  <meta property="og:type" content="website">
               <meta property="og:title" content="JobFAIR | <?=$item->naslov;?>" />
-    				  <meta property="og:description" content="<?=$item->opis;?>" />
-				  <meta property="og:image" content="<?=$item->slika;?>" />
-				  <meta property="og:url" content="<?=$url_home;?>novost/<?=$_GET['id'];?>" />
+                      <meta property="og:description" content="<?=$item->opis;?>" />
+                  <meta property="og:image" content="<?=$item->slika;?>" />
+                  <meta property="og:url" content="<?=$url_home;?>novost/<?=$_GET['id'];?>" />
 
-	               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+                   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
                         <!--Za affix-->
                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 
-	        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-	        <!-- Place favicon.ico in the root directory -->
-	        <link rel="stylesheet" href="<?=$url_home;?>css/main.css">
-	        <link rel="stylesheet" href="<?=$url_home;?>bootstrap/css/bootstrap-theme.min.css">
-	        <link rel="stylesheet" href="<?=$url_home;?>bootstrap/css/bootstrap-theme.css">
-	        <link rel="stylesheet" href="<?=$url_home;?>bootstrap/css/bootstrap.css">
-	        <link rel="shortcut icon" href="favicon.ico?v=2">
-	        <link rel="stylesheet" href="<?=$url_home;?>css/normalize.css">
-	        <link rel="stylesheet" href="<?=$url_home;?>css/shape-style.css ">
+            <link rel="apple-touch-icon" href="apple-touch-icon.png">
+            <!-- Place favicon.ico in the root directory -->
+            <link rel="stylesheet" href="<?=$url_home;?>css/main.css">
+            <link rel="stylesheet" href="<?=$url_home;?>bootstrap/css/bootstrap-theme.min.css">
+            <link rel="stylesheet" href="<?=$url_home;?>bootstrap/css/bootstrap-theme.css">
+            <link rel="stylesheet" href="<?=$url_home;?>bootstrap/css/bootstrap.css">
+            <link rel="shortcut icon" href="favicon.ico?v=2">
+            <link rel="stylesheet" href="<?=$url_home;?>css/normalize.css">
+            <link rel="stylesheet" href="<?=$url_home;?>css/shape-style.css ">
             <link rel="stylesheet" href="<?=$url_home;?>css/novosti.css ">
             <link rel="stylesheet" href="<?=$url_home;?>css/main-landing.css">
             <link rel="stylesheet" href="<?=$url_home;?>css/menu-second.css">
@@ -52,7 +52,7 @@ $url_home = 'http://localhost/jobfair16/';
             <!--Za affix-->
               <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+            <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body>
