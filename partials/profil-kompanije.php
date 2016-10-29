@@ -23,7 +23,7 @@
 
 
             <p class="telefon-kompanije-labela">Telefon</p>
-            <p class="telefon-kompanije"><?=$item->phone?>/p>
+            <p class="telefon-kompanije"><?=$item->phone?></p>
         </div>
         <br>
         <label>Opis kompanije</label>

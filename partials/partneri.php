@@ -11,7 +11,7 @@
           <div class="partneri_box">
              <li>
              
-              <a href="<?=$url_home;?>profil/10>">
+              <a href="<?=$url_home;?>profil/10">
                   <img id="api-godisnji" src="img/komplogo/infobip.png" alt="Infobip">
                 </a>
               </li>
@@ -23,7 +23,7 @@
               </li>
 
              <li>
-               <a href="<?=$url_home;?>profil/20>">
+               <a href="<?=$url_home;?>profil/20">
                 <img id="redbull-godisnji" src="img/komplogo/api.png" alt="API" >
               </a>
             </li>
