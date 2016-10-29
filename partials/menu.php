@@ -21,13 +21,13 @@
 
                         <!--<li><a href="<?=$url_home;?>ucesnici">Novosti</a></li>-->
                         <li><a href="#">Novosti</a></li>
-                        <li><a href="mediji">Mediji</a></li>
-                        <li><a href="ucesnici"> Partneri</a></li>
+                        <li><a href="http://www.jobfair.ba/mediji">Mediji</a></li>
+                        <li><a href="http://www.jobfair.ba/ucesnici"> Partneri</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>
                         <li><a href="#postani-partner" >Postani partner</a></li>-->
-                        <li><a href="galerija">Galerija</a></li>
-                        <li><a href="login">Login</a></li>
-                        <li><a href="kontakt">Kontakt</a></li>
+                        <li><a href="http://www.jobfair.ba/galerija">Galerija</a></li>
+                        <li><a href="http://www.jobfair.ba/login">Login</a></li>
+                        <li><a href="http://www.jobfair.ba/kontakt">Kontakt</a></li>
 
 
                     </ul>
