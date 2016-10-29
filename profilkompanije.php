@@ -2,10 +2,10 @@
 <?php
  //$url_home = 'http://www.jobfair.ba/';
  //$url_home = "http://www.jobfair.ba/";
-$url_home = 'http://localhost/jobfair16/';
+ $url_home = 'http://localhost/jobfair16/';
  $item = json_decode(file_get_contents('http://api.jobfair.ba/api/kompanije/'.$_GET['id']));
 
- if(!isset($item->naslov)) header('Location: '.$url_home.'404');
+ //if(!isset($item->naslov)) header('Location: '.$url_home.'404');
 
  ?>
 <html class="no-js" lang="" ng-app="jfApp">

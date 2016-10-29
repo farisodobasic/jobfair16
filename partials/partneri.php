@@ -75,7 +75,12 @@
               </li>
               <li>
                 <a href="#">
-                  <img id="zira-srebreni" src="img/kompanije/zira.png" alt="Zira" >
+                  <img id="zira-srebreni" src="img/komplogo/zira.png" alt="Zira" >
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img id="mistral-srebreni" src="img/komplogo/mistral.png" alt="Zira" >
                 </a>
               </li>
           </div>            
