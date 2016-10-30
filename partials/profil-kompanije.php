@@ -6,7 +6,7 @@
 
 	<div class="container-fluid" style="margin-top:13%!important">
 	<div class="profil-podaci" >
-        <a href="<?$item->web;?>"  target="_blank" ><img src="http://api.jobfair.ba/static/kompanije/<?=$item->id;?>.png" style="width:250px; margin-left:18%" class="slika-kompanije" alt="API"></a>
+        <a href="https://<?=$item->web;?>"  target="_blank" ><img src="http://api.jobfair.ba/static/kompanije/<?=$item->id;?>.png" style="width:250px; margin-left:18%" class="slika-kompanije" alt="API"></a>
         <div>
             
 
@@ -18,7 +18,7 @@
             <p class="mail-kompanije"><?=$item->email?></p>
 
             <p class="web-kompanije-labela">Web</p>
-            <p class="web-kompanije"><a href= "https://<?$item->web?>"  target="_blank"><?$item->web?></a></p>
+            <p class="web-kompanije"><a href= "https://<?=$item->web?>"  target="_blank"><?=$item->web?></a></p>
 
             <p class="adresa-kompanije-labela">Adresa</p>
             <p class="adresa-kompanije"><?=$item->address?></p>
