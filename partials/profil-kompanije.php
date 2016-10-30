@@ -18,7 +18,7 @@
             <p class="mail-kompanije"><?=$item->email?></p>
 
             <p class="web-kompanije-labela">Web</p>
-            <p class="web-kompanije"><a href= "<?$item->web?>"  target="_blank"><?=$item->web?></a></p>
+            <p class="web-kompanije"><a href= "https://<?$item->web?>"  target="_blank"><?$item->web?></a></p>
 
             <p class="adresa-kompanije-labela">Adresa</p>
             <p class="adresa-kompanije"><?=$item->address?></p>
