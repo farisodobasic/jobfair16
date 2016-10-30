@@ -196,7 +196,7 @@
         <div class="c_partneri">
               <h1 id="partneri"> PARTNERI SAJMA </h1>
               <ul id="lista">
-                 <li> <div id="pin"class="slika_partneri"><a href="http://www.ping.ba/" target="_blank"><img src="img/komplogo/ping.png" alt="Ping"></a></div></li>
+                 <li> <div id="pin"class="slika_partneri"><a href="http://www.ping.ba/" target="_blank" ><img src="img/komplogo/ping.png" alt="Ping"></a></div></li>
                  <!--<li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/akademika.png" alt="Ping"></div></li>-->
 
               </ul>
