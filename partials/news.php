@@ -34,6 +34,7 @@
           <div class="pull-left"><?php echo date('d.m.Y', strtotime($item->created_at)); ?></div>
           <div class="pull-right"><a href="<?=$url_home;?>novost/<?=$item->id;?>">Opširnije...</a></div>
           <div style="clear:both;"></div>
+          <br>
         </div>
         <div style="clear:both;"></div>
       </div>
