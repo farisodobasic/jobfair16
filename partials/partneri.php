@@ -74,8 +74,8 @@
                 </a>
               </li>
               <li>
-                 <a href="<?=$url_home;?>profil/15">>
-                  <img id="zira-srebreni" src="img/komplogo/zira.png" alt="Zira" >
+                 <a href="<?=$url_home;?>profil/15">
+                  <img id="zira-srebreni" src="img/komplogo/zira.png" alt="Zira">
                 </a>
               </li>
               <li>
