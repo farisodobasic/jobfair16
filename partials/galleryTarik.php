@@ -32,9 +32,9 @@
             }
 
         }
-    }
-    ?>
-    <div id="album-container">
+    }?>
+
+        <div id="album-container">
         <?php for($i = 0; $i < $counter; $i++) { ?>
             <div class="col-lg-4 col-md-6 col-sm-12 col-centered">
                 <div class="album-preview center-block"   >
@@ -71,12 +71,12 @@
         <?php } ?>
       </div>
 
-      <script>
+     <!-- <script>
       function albumEmpty(){
         alert('Album je trenutno prazan.');
       }
 
-<!--
+
     <div class="gallery-all" >
          <?php
             $dirname = "../img/gallery";

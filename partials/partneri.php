@@ -137,6 +137,11 @@
                   <img id="tring-b" src="img/komplogo/systemverif.jpg " alt="System Verification">
                 </a>
               </li>
+              <li>
+                 <a href="<?=$url_home;?>profil/21">
+                  <img id="tring-b" src="img/komplogo/mstart.png " alt="MStart">
+                </a>
+              </li>
                <!-- http://www.rubicon-world.com/ -->
 
                 <p style="clear:both;"></p>
@@ -197,7 +202,8 @@
               <h1 id="partneri"> PARTNERI SAJMA </h1>
               <ul id="lista">
                  <li> <div id="pin"class="slika_partneri"><a href="http://www.ping.ba/" target="_blank" ><img src="img/komplogo/ping.png" alt="Ping"></a></div></li>
-                 <!--<li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/akademika.png" alt="Ping"></div></li>-->
+                 <li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/akademika.png" alt="Ping"></div></li>
+                 <li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/raiffeisen.png" alt="Ping"></div></li>
 
               </ul>
           </div>
