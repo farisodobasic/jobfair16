@@ -344,7 +344,7 @@
 
 				if($item->prosjek[$i] == "" || $item->prosjek[$i] == null) $item->prosjek[$i] = 0;
 
-				if($item->godina[$i] == 8) $item->kraj[$i] = "0000-00-00";
+				if($item->godina[$i] != 8) $item->kraj[$i] = "0000-00-00";
 
 				if($item->edit[$i] == 0){
 					/*echo "INSERT INTO jf_edukacija (id, fakultet, smjer, godina_studija, prosjek, cv, start_date, end_date)
