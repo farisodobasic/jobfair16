@@ -322,7 +322,8 @@ function spremi_edu(){
     });
 
     var data_jezici = JSON.stringify(jezici);
-    console.log(data_jezici);
+    //console.log(data_jezici);
+
 
     /*console.log(srednja_naziv + ", " + srednja_grad + ", " + srednja_kraj + ", " + srednja_edit + ", " + srednja_smjer);
     console.log(data_faks);
@@ -335,6 +336,8 @@ function spremi_edu(){
       });
       return true;
     }
+
+
 }
 
 function validacija_edu(){
@@ -429,6 +432,8 @@ function validacija_edu(){
           edu_validacija = false;
         }
       }
+
+
 
       if($(this).children('.dropdown-select').children('.edu-od-g').val() == "" || $(this).children('.dropdown-select').children('.edu-od-g').val() == undefined || $(this).children('.dropdown-select').children('.edu-od-m').val() == "" || $(this).children('.dropdown-select').children('.edu-od-m').val() == undefined ||  $(this).children('.dropdown-select').children('.edu-od-d').val() == "" || $(this).children('.dropdown-select').children('.edu-od-d').val() == undefined){
         append_edu += "Unesite validan datum početka.<br />";
@@ -536,7 +541,7 @@ function spremi_dod_edu(){
       if($(this).children('.form-checkbox').children('.dodedu-aktivno').is(':checked')) dodatna['aktivno'].push(1); else dodatna['aktivno'].push(0);
   });
 
-  console.log(dodatna);
+  //console.log(dodatna);
   var data = JSON.stringify(dodatna);
 
   if(moze){
@@ -686,10 +691,11 @@ function spremi_cv(){
     var vje = spremi_vjestine();
     var cv = spremljen_cv();
 
-//    console.log(oi + " " + ri + " " + edu + " " + dod + " " + vje + " " + cv);
-    if(oi && ri && edu && dod && vje && cv){ setTimeout(function(){ window.location = root_url + 'user/moj-cv.php?refresh=true'; }, 700); }
-    else spremi = false;
-  }   
+  //  console.log(oi + " " + ri + " " + edu + " " + dod + " " + vje + " " + cv);
+    return false;
+//    if(oi && ri && edu && dod && vje && cv){ setTimeout(function(){ window.location = root_url + 'user/moj-cv.php?refresh=true'; }, 700); }
+    //else spremi = false;
+  }
 }
 
 /* Imrpovments */
