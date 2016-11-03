@@ -62,6 +62,8 @@
 	               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 
 	        <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -73,6 +75,17 @@
 	        <link rel="shortcut icon" href="favicon.ico?v=2">
 	        <link rel="stylesheet" href="css/normalize.css">
 	        <link rel="stylesheet" href="css/main-landing.css?v=3">
+            <link rel="stylesheet" href="css/main-landing.css">
+            <link rel="stylesheet" href="css/menu-second.css">
+            <link rel="stylesheet" href="css/title.css">
+            <link rel="stylesheet" href="css/onama.css">
+            <link rel="stylesheet" href="css/aktivnosti.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/timeline.css">
+            <link rel="stylesheet" href="css/login.css">
+            <link rel="stylesheet" href="css/post.css">
+            <link rel="stylesheet" href="css/novosti.css">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -107,11 +120,13 @@
       <!--  <div id="screen" ng-view>
             <center><img src="https://d13yacurqjgara.cloudfront.net/users/12755/screenshots/1037374/hex-loader2.gif" /></center>
         </div> -->
-        <?php include('partials/menu.php'); ?>
+        <!--<?php //include('partials/menu.php'); ?>
         <div class="prazan-prostor"><br><br><br><br><br></div>
-        <?php include('partials/news.php'); ?>
+        <?php //include('partials/news.php'); ?>
         <div class="prazan-prostor"><br><br><br><br><br></div>
-        <?php include('partials/footer.php'); ?>
+        <?php //include('partials/footer.php'); ?>-->
+
+        <?php include ('partials/novosti-full.php'); ?> 
 
         <script type="text/javascript">
             $(document).ready(function() {

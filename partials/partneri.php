@@ -17,7 +17,7 @@
               </li>
 
              <li>
-                <a href="#">
+                <a href="https://www.microsoft.com/bs-ba/">
                   <img id="micro-godisnji" src="img/kompanije/microsoft.png" alt="Microsoft" >
                 </a>
               </li>

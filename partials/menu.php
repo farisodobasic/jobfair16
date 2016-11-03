@@ -20,7 +20,7 @@
 
 
                         <!--<li><a href="<?=$url_home;?>ucesnici">Novosti</a></li>-->
-                        <li><a href="#">Novosti</a></li>
+                        <li><a href="http://www.jobfair.ba/novosti">Novosti</a></li>
                         <li><a href="http://www.jobfair.ba/mediji">Mediji</a></li>
                         <li><a href="http://www.jobfair.ba/ucesnici"> Partneri</a></li>
                         <!-- <li><a href="#ucesnici" >Učesnici</a></li>

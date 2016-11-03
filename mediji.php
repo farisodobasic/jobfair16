@@ -62,6 +62,8 @@
 	               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 	               <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 
 	        <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -84,6 +86,7 @@
             <link rel="stylesheet" href="css/timeline.css">
             <link rel="stylesheet" href="css/post.css">
             <link rel="stylesheet" href="css/mediji.css">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -129,6 +132,8 @@
 
         <script src="js/main-landing.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/menu.js"></script>
+                <script src="js/main.js"></script>
 <!--        <script src="js/angular/naslovna.js"></script> -->
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>

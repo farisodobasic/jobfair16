@@ -3260,7 +3260,7 @@ div ul li{
     }
     #bs-example-navbar-collapse-1
     {
-        top: 60px!important;
+        top: 40px!important;
         background-color: white!important;
     }
     #navbarMain > li > a
@@ -3273,7 +3273,7 @@ div ul li{
 @media only screen and (max-width: 460px){
     .navbar-collapse
     {
-        display: none;
+        /*display: none;*/
     }
     #bs-example-navbar-collapse-1
     {

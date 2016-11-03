@@ -5,9 +5,9 @@
         <div class="heading-footer">Jobfair.ba sitemap</div>
 
         <a href="http://www.jobfair.ba">Landing page</a>
-        <a href="#">Partneri</a>
+        <a href="http://www.jobfair.ba/ucesnici">Partneri</a>
         <a href="http://www.jobfair.ba/login">Ostavi CV</a>
-        <a href="#">Kontakt</a>
+        <a href="http://www.jobfair.ba/ucesnici">Kontakt</a>
 
       </div>
       <div class="col-md-3 col-sm-12">
