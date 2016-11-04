@@ -1,7 +1,7 @@
 var root_url = "http://www.jobfair.ba/";
 
 $(document).ready(function(){
-	console.log('ucitao se');
+	//console.log('ucitao se');
 });
 
 $(document).on("click", ".click-to-use-vjestina", function(){

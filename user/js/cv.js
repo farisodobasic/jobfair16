@@ -692,9 +692,9 @@ function spremi_cv(){
     var cv = spremljen_cv();
 
   //  console.log(oi + " " + ri + " " + edu + " " + dod + " " + vje + " " + cv);
-    return false;
-//    if(oi && ri && edu && dod && vje && cv){ setTimeout(function(){ window.location = root_url + 'user/moj-cv.php?refresh=true'; }, 700); }
-    //else spremi = false;
+
+    if(oi && ri && edu && dod && vje && cv){ setTimeout(function(){ window.location = root_url + 'user/moj-cv.php?refresh=true'; }, 700); }
+    else spremi = false;
   }
 }
 
