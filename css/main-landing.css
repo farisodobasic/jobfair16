@@ -2046,23 +2046,253 @@ div.logo a {
     margin-top:25px;
     overflow:hidden;
 }
+/*media query logo -- BEGIN*/
+
+@media only screen and(max-width:1224px){
+    
+    #reklama{
+        width: 0px;
+    }
+
+    #godisnji{
+        font-size: 24px;
+    }
+    #zlatni{
+        font-size: 28px;
+    }
+    #srebreni{
+        font-size: 27px;
+    }
+    #ucesnici{
+        font-size: 17px;
+    }
+
+    .partneri_box{
+        width: 720px;
+    }
+    #api-godisnji{
+        width:199px;
+    }
+    #micro-godisnji{
+        width:300px;
+    }
+    #redbull-godisnji{
+        width:205px;
+    }
+    #klix-godisnji{
+        width: 210px;
+        margin-left: 33%;
+    }
+    /*Refa novo*/
+    #radiosarajevo-web-pokrovitelj
+    {
+        margin-top: 15px;
+        width: 310px;
+        margin-left: 30%;
+    }
+    #szks-org{
+        margin-top: 60px;
+        width: 300px;
+        margin-left: 25%;
+    }
+    #shl-org{
+        width: 150px;
+        margin-left: 37%;
+        margin-top: 40px;
+    }
+    #fmon-org{
+        width: 230px;
+        margin-left: 30%;
+    }
+    #telekom-zlatni{
+        width: 200px;
+        margin-left: 33%;
+    }
+    #radioM-generalni{
+    width: 200px;
+    margin-left: 36%;
+    }
+    #devlogic-srebreni{
+        width: 160px;
+    }
+    #infobip-srebreni{
+        width: 160px;
+    }
+    #mistral-srebreni{
+        width: 140px;
+        margin-top: -30px;
+    }
+    #zira-srebreni{
+        width: 120px;
+    }
+    #mistral-srebreni
+    {
+        width: 120px;
+    }
+    #akta-pokrovitelj{
+        width: 110px;
+    }
+    #iuventa-pokrovitelj{
+        width: 160px;
+        margin-top: 20px;
+    }
+    #kameleon-pokrovitelj{
+        width: 160px;
+        margin-top: -80px;
+    }
+    #novi-pokrovitelj{
+        width: 140px;
+    }
+    #student-pokrovitelj{
+        width: 160px;
+    }
+    #radio8-pokrovitelj{
+        width: 140px;
+    }
+    #alfa-pokrovitelj{
+        width: 135px;
+        margin-left: 10%;
+    }
+    #hocu-pokrovitelj{
+        width: 140px;
+        margin-left: 7%;
+    }
+    #efm-pokrovitelj{
+        width: 120px;
+        margin-left: 67%;
+    }
+    #depo-pokrovitelj{
+        width: 100px;
+    }
+    #pogled-pokrovitelj{
+        width: 160px;
+        margin-left: 8%;
+    }
+    #bhindex-pokrovitelj{
+        width: 140px;
+        margin-left: 10%;
+        margin-top: -5px;
+    }
+    #vogosca-pokrovitelj{
+        width: 120px;
+        margin-left: 10%;
+    }
+    #vijesti-pokrovitelj{
+        width: 130px;
+        margin-left: 10%;
+    }
+    #sens-pokrovitelj{
+        width: 90px;
+        margin-left: 15%;
+        margin-top: 0;
+    }
+    #atlant-b{
+        width: 120px;
+        margin-left: 5%;
+    }
+    #cpe-b{
+        width: 120px;
+    }
+    #gene-b{
+        width: 120px;
+        margin-left: 6%;
+    }
+    #gramas-b{
+        width: 70px;
+        margin-left: 7%;
+    }
+    #ping-b{
+        width: 120px;
+    }
+    #qss-b{
+        width: 100px;
+    }
+    #rubicon-b{
+        width: 150px;
+        margin-left: 5%;
+    }
+    #tring-b{
+        width:100px;
+        margin-left: 11%;
+    }
+    #unicredit-b{
+        width: 145px;
+        margin-left: 13%;
+    }
+    #reflected-b{
+        width: 140px;
+        margin-top: 40px;
+        margin-left: 4%;
+    }
+    #procredit-b{
+        width: 145px;
+        margin-top: -63px;
+        margin-left: 62%;
+    }
+    #klika-b{
+        width: 145px;
+        margin-left: 12%;
+    }
+    #infostudio-b{
+        width: 145px;
+        margin-left: 5%;
+    }
+    #deling-b{
+        width: 150px;
+        margin-left: 5%;
+    }
+
+    #studomat-p{
+        width: 110px;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    #sutra-p{
+        width: 120px;
+        margin-left: 12%;
+        margin-top: 20px;
+    }
+    #haber-p{
+        width: 120px;
+        margin-top: 15px;
+        margin-left: 12%;
+    }
+    #tuzlainfo-p{
+        width: 130px;
+        margin-top: 15px;
+        margin-left: 4%;
+    }
+    #bhmagazin-p{
+        width: 120px;
+        margin-left: 28%;
+        margin-top: 20px;
+    }
+    #doznajemo-p{
+        width: 120px;
+        margin-left: 6%;
+        margin-top: 20px;
+    }
+}
+
 @media(max-width:960px)
 {
     #reklama{
         width: 0px;
     }
+
     #godisnji{
-        font-size: 26px;
+        font-size: 24px;
     }
     #zlatni{
         font-size: 22px;
     }
     #srebreni{
-        font-size: 19px;
+        font-size: 20px;
     }
     #ucesnici{
         font-size: 17px;
     }
+
     .partneri_box{
         width: 720px;
     }
@@ -2270,23 +2500,27 @@ div.logo a {
     }
 }
 
+
 @media(max-width:763px)
 {
     .c_ucesnici{
         margin-top: -20px;
     }
+
     #godisnji{
         font-size: 22px;
     }
     #zlatni{
-        font-size:19px;
+        font-size:20px;
     }
     #srebreni{
-        font-size:16px;
+        font-size:19px;
     }
     #ucesnici{
         font-size: 14px;
     }
+
+
     .partneri_box{
         width: 520px;
         margin: auto;
@@ -2789,7 +3023,7 @@ div.logo a {
         font-size:12px;
     }
     #ucesnici{
-        font-size: 10px;
+        font-size: 20px;
     }
     .partneri_box{
         width: 250px;

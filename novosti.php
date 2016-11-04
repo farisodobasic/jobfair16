@@ -79,7 +79,7 @@
             <link rel="stylesheet" href="css/menu-second.css">
             <link rel="stylesheet" href="css/title.css">
             <link rel="stylesheet" href="css/onama.css">
-            <link rel="stylesheet" href="css/aktivnosti.css">
+            <!--<link rel="stylesheet" href="css/aktivnosti.css">-->
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/timeline.css">
             <link rel="stylesheet" href="css/login.css">
