@@ -138,7 +138,7 @@
                 </a>
               </li>
               <li>
-                 <a href="<?=$url_home;?>profil/21">
+                 <a href="<?=$url_home;?>profil/24">
                   <img id="tring-b" src="img/komplogo/mstart.png " alt="MStart">
                 </a>
               </li>
