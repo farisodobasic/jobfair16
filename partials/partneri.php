@@ -8,23 +8,22 @@
       <div class="c_godisnji">
         <div id="godisnji">GENERALNI GODIŠNJI PARTNERI</div>
         <ul id="lista">
-          <div class="partneri_box">
-             <li>
-             
+          <div class="row center-block partneri_box generalni_elvir">
+             <li class="col-sm-12 col-xs-12 col-md-4"> 
               <a href="<?=$url_home;?>profil/10">
-                  <img id="api-godisnji" src="img/komplogo/infobip.png" alt="Infobip">
+                  <img class="img-responsive" src="img/komplogo/infobip.png" alt="Infobip">
                 </a>
               </li>
 
-             <li>
+             <li class="col-sm-12 col-xs-12 col-md-4">
                 <a href="https://www.microsoft.com/bs-ba/">
-                  <img id="micro-godisnji" src="img/kompanije/microsoft.png" alt="Microsoft" >
+                  <img class="img-responsive" src="img/kompanije/microsoft.png" alt="Microsoft" >
                 </a>
               </li>
 
-             <li>
+             <li class="col-sm-12 col-xs-12 col-md-4" style = "width:250px!important;"> 
                <a href="<?=$url_home;?>profil/20">
-                <img id="redbull-godisnji" src="img/komplogo/api.png" alt="API" >
+                <img class="img-responsive" src="img/komplogo/api.png" alt="API" >
               </a>
             </li>
           </div>
@@ -53,34 +52,33 @@
       <div class="c_srebreni">
         <h1 id="srebreni"> SREBRENI PARTNERI </h1>
         <ul id="lista">
-  	       <div class="partneri_box">
-              <li>
+  	       <div class="row center-block partneri_box srebro_elvir">
+              <li class="col-sm-12 col-xs-12 col-md-6">
                  <a href="<?=$url_home;?>profil/11">
-                  <img id="devlogic-srebreni" src="img/komplogo/rubicon.png" alt="Rubicon" >
+                  <img class="img-responsive" src="img/komplogo/rubicon.png" alt="Rubicon" >
                 </a>
               </li>
-              <li>
+              <li class="col-sm-12 col-xs-12 col-md-6">
                  <a href="<?=$url_home;?>profil/18">
-                  <img id="infobip-srebreni" src="img/komplogo/symphony.png" alt="Syphony">
+                  <img class="img-responsive" src="img/komplogo/symphony.png" alt="Syphony">
                 </a>
               </li>
-            
                <p style="clear:both;"></p>
                <br>
                
-              <li>
+              <li class="col-sm-12 col-xs-12 col-md-6">
                 <a href="#">
-                  <img id="mistral-srebreni" src="img/komplogo/bht.png" alt="BH Telecom">
+                  <img class="img-responsive" src="img/komplogo/bht.png" alt="BH Telecom">
                 </a>
               </li>
-              <li>
+              <li class="col-sm-12 col-xs-12 col-md-8" style = "width:200px!important; margin-left:50px;">
                  <a href="<?=$url_home;?>profil/15">
-                  <img id="zira-srebreni" src="img/komplogo/zira.png" alt="Zira">
+                  <img class="img-responsive" src="img/komplogo/zira.png" alt="Zira">
                 </a>
               </li>
-              <li>
+              <li class="col-sm-12 col-xs-12 col-md-4">
                 <a href="#">
-                  <img id="mistral-srebreni" src="img/komplogo/mistral.png" alt="Zira" >
+                  <img class="img-responsive" src="img/komplogo/mistral.png" alt="Zira" >
                 </a>
               </li>
           </div>            
@@ -91,31 +89,29 @@
       <div class="c_ucesnici">
         <h1 id="ucesnici"> UČESNICI SAJMA </h1>
         <ul id="lista">
-  	       <div class="partneri_box">
-              <li>
+           <div class="row center-block partneri_box ucesnici_elvir">
+              <li class="col-sm-6 col-xs-6 col-md-4">
                 <a href="#">
-                  <img id="atlant-b" src="img/kompanije/atlant.png" alt="Atlant">
+                  <img class="img-responsive" src="img/kompanije/atlant.png" alt="Atlant">
                 </a>
               </li>
-              <li>
+              <li class="col-sm-6 col-xs-6 col-md-4">
                 
               <a href="<?=$url_home;?>profil/9">
-                  <img id="cpe-b" src="img/komplogo/alem.png" alt="ALEM Sistem">
+                  <img class="img-responsive" style="height: auto !important" src="img/komplogo/alem.png" alt="ALEM Sistem">
                 </a>
               </li>
-              <li>
+              <li class="col-sm-6 col-xs-6 col-md-4">
                  <a href="<?=$url_home;?>profil/23">
-                  <img id="gene-b" src="img/kompanije/gene.jpg" alt="GenE">
+                  <img class="img-responsive" src="img/kompanije/gene.jpg" alt="GenE">
                 </a>
               </li>
-              <li>
+              <li class="col-sm-6 col-xs-6 col-md-4">
                <a href="<?=$url_home;?>profil/12">
-                  <img id="gramas-b" src="img/komplogo/qss.png" alt="QSS">
+                  <img class="img-responsive" style="width: auto !important" src="img/komplogo/qss.png" alt="QSS">
                 </a>
               </li>
-               
-                <p style="clear:both;"></p>
-                <br>
+                
 
               <!--<li>
                 <a href="http://www.ping.ba/">
@@ -127,26 +123,23 @@
                   <img id="qss-b" src="img/kompanije/qss.PNG" alt="QSS">
                 </a>
               </li>-->
-              <li>
+              <li class="col-sm-6 col-xs-6 col-md-4">
                  <a href="<?=$url_home;?>profil/22">
-                  <img id="rubicon-b" src="http://api.jobfair.ba/static/kompanije/22.png" alt="Klika">
+                  <img class="img-responsive" src="http://api.jobfair.ba/static/kompanije/22.png" alt="Klika">
                 </a>
               </li>
-              <li>
+              <li class="col-sm-6 col-xs-6 col-md-4">
                  <a href="<?=$url_home;?>profil/21">
-                  <img id="tring-b" src="img/komplogo/systemverif.jpg " alt="System Verification">
+                  <img class="img-responsive" style="height: auto !important" src="img/komplogo/systemverif.jpg " alt="System Verification">
                 </a>
               </li>
-              <li>
-                 <a href="<?=$url_home;?>profil/21">
-                  <img id="tring-b" src="img/komplogo/mstart.png " alt="MStart">
+              <li class="col-sm-6 col-xs-6 col-md-4">
+                 <a href="<?=$url_home;?>profil/24">
+                  <img class="img-responsive" src="img/komplogo/mstart.png " alt="MStart">
                 </a>
               </li>
                <!-- http://www.rubicon-world.com/ -->
 
-                <p style="clear:both;"></p>
-                <br>
-               
               <!--<li>
                 <a href="partials/profil-unicredit.html">
                   <img id="unicredit-b" src="img/kompanije/unicredit.gif" alt="UniCredit">
@@ -163,8 +156,6 @@
                 </a>
               </li>-->
 
-               <p style="clear:both;"></p>
-               <br>
 
               <!--<li>
                 <a href="partials/profil-klika.html">
@@ -199,12 +190,23 @@
           <br>-->
 
         <div class="c_partneri">
-              <h1 id="partneri"> PARTNERI SAJMA </h1>
+            <h1 id="partneri"> PARTNERI SAJMA </h1>
               <ul id="lista">
-                 <li> <div id="pin"class="slika_partneri"><a href="http://www.ping.ba/" target="_blank" ><img src="img/komplogo/ping.png" alt="Ping"></a></div></li>
-                 <li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/akademika.png" alt="Ping"></div></li>
-                 <li> <div id="akademika"class="slika_partneri"><img src="img/komplogo/raiffeisen.png" alt="Ping"></div></li>
-
+                <div class="row center-block partneri_box partneri_elvir">
+                  <li class="col-sm-12 col-xs-12 col-md-4">
+                    <a href="http://www.ping.ba/" target="_blank" >
+                      <img class="img-responsive" src="img/komplogo/ping.png" alt="Ping">
+                    </a>
+                  </li>
+                  <li class="col-sm-12 col-xs-12 col-md-4">
+                    <a href="http://www.akademika.ba/en/" target="_blank">
+                      <img class="img-responsive" src="img/komplogo/akademika.png" alt="Ping">
+                    </a>
+                  </li>
+                  <li class="col-sm-12 col-xs-12 col-md-4">
+                    <img class="img-responsive" src="img/komplogo/raiffeisen.png" alt="Ping">
+                  </li>
+                </div>
               </ul>
           </div>
           <p style="clear:both;"></p>
