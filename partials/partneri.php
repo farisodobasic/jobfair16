@@ -133,9 +133,15 @@
                   <img class="img-responsive" style="height: auto !important" src="img/komplogo/systemverif.jpg " alt="System Verification">
                 </a>
               </li>
+<<<<<<< HEAD
               <li class="col-sm-6 col-xs-6 col-md-4">
                  <a href="<?=$url_home;?>profil/24">
                   <img class="img-responsive" src="img/komplogo/mstart.png " alt="MStart">
+=======
+              <li>
+                 <a href="<?=$url_home;?>profil/24">
+                  <img id="tring-b" src="img/komplogo/mstart.png " alt="MStart">
+>>>>>>> 23ae985bdde7e9e3646c4f1992ba4612fb048e46
                 </a>
               </li>
                <!-- http://www.rubicon-world.com/ -->
