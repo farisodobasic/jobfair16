@@ -314,21 +314,10 @@
 								<h1><?=$row['naziv_pozicije'];?></h1>
 								<h2><?=$row['naziv_kompanije'];?></h2>
 								Kategorija: <?=$row['kat'];?><br />
-								<br />
+								Vještine: HTML/CSS, PHP, WordPress<br />
 								Deadline: <b><?=date('d.m.Y', strtotime($row['konkurs_end']));?></b><br />
-									<?php if(isset($_SESSION['id_kompanije']))
-								{ ?>
 								<a target="_blank" href="<?=$url_home;?>kompanije/oglas.php?id=<?=$row['id'];?>">Pročitaj detaljno</a>
-								
-								<?php 
-								} ?>
-								
-								<?php if(isset($_SESSION['id_korisnika']))
-								{ ?>
-								<a target="_blank" href="<?=$url_home;?>user/oglas.php?id=<?=$row['id'];?>">Pročitaj detaljno</a>
-								
-								<?php 
-								} ?>
+
 							</div>
 							<div style="clear:both;"></div>
 							<?php
@@ -375,3 +364,4 @@
 			return true;
 	}
 
+?>
