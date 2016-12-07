@@ -1,7 +1,7 @@
 <?php
 	require_once('../brains/global.php');
-	
-	require_once('../brains/global_student.php');
+	require_once('../brains/config.php');   
+   	require_once('../brains/global_student.php');
 	//session_destroy();
 ?>
 <!DOCTYPE html>
