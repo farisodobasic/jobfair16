@@ -386,7 +386,7 @@ function render_oglasiPublic($query, $poruka = "Nema oglasa."){
 								Kategorija: <?=$row['kat'];?><br />
 								<br />
 								Deadline: <b><?=date('d.m.Y', strtotime($row['konkurs_end']));?></b><br />
-								<a target="_blank" href="<?=$url_home;?>user/oglas.php?id=<?=$row['id'];?>">Pročitaj detaljno</a>
+								<a target="_blank" href="<?=$url_home;?>kompanije/oglas.php?id=<?=$row['id'];?>">Pročitaj detaljno</a>
 
 							</div>
 							<div style="clear:both;"></div>
