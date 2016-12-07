@@ -364,12 +364,6 @@
 			return true;
 	}
 
-?>
-
-
-
-
-/*za studente oglasi*/
 function render_oglasiPublic($query, $poruka = "Nema oglasa."){
 		global $db;
 		global $url_home;
@@ -406,10 +400,18 @@ function render_oglasiPublic($query, $poruka = "Nema oglasa."){
 									}else{
 										echo "<br>Već ste prijavljeni na ovaj oglas!";
 									}
-								}
+								}else if(isset($_SESSION['id_kompanije'])){
+									/* Ukoliko je korisnik ulogoan kao kompanija */
+									if($row['profil_kompanije'] == $_SESSION['id_kompanije']){
 										?>
-									
-									
+											<a class="btn" style="display:block;float:left;margin:0 10px 20px 0;" href="<?=$url_home;?>kompanije/pregled-aplikacija.php?id=<?=$row['id'];?>">Pregledaj aplikacije</a>
+											<a class="btn" style="display:block;float:left;margin:0 10px 20px 0;" href="<?=$url_home;?>kompanije/edit-oglas.php?id=<?=$row['id'];?>">Izmijeni oglas</a>
+
+											<div style="clear:both;"></div>
+										<?php
+									}
+								}
+							?>
 			</div>
 			<div style="clear:both;"></div>
 			<?php
@@ -419,3 +421,4 @@ function render_oglasiPublic($query, $poruka = "Nema oglasa."){
 		/* End of HTML rendering */
 	}
 ?>
+
