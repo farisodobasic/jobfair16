@@ -1,5 +1,6 @@
 <?php
 	require_once('../brains/global.php');
+    require_once('../brains/global_student.php');
 	//session_destroy();
 	if($_GET){
 		$id_oglasa = (int)$_GET['id'];

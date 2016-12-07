@@ -1,5 +1,6 @@
 <?php
 	require_once('../brains/global.php');
+    require_once('../brains/global_student.php');
 	//session_destroy();
 ?>
 <!DOCTYPE html>
@@ -9,10 +10,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Moji oglasi</title>
-    <?php require_once('inc/html_head.php'); ?>
-    <script type="text/javascript" src="nicEdit/nicEdit.js"></script>
-    <script type="text/javascript"> bkLib.onDomLoaded(function() { nicEditors.allTextAreas() }); </script>
+		<title>Oglasi | JobFAIR.ba</title>
+		<meta name="description" content="JobFAIR.ba - Ostavite svoj životopis u našu bazu!">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+				<link rel="shortcut icon" href="<?=$url_home;?>favicon.ico?v=3">
 
   </head>
   <body>
