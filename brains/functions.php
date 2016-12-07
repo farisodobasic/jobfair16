@@ -394,23 +394,12 @@
 								$is_applied = false;
 								if(isset($_SESSION['id_korisnika'])){
 									/* Chekiraj ako je korisnik ulogovan */
-									$is_applied = $db->query("SELECT count(id) FROM jf_aplikacije								WHERE id_korisnika=1  AND
-										id_kompanije={$kompanija_podaci['id']}")->fetch_assoc();
-
+								
 									if(count($is_applied)==0){
-										?><a class="btn" href="javascript:aplicirajNaOglas(<?=$row['id_kompanije'];?>, <?=$row['id'];?>)">Apliciraj</a><?php
+										?><a class="btn" href="javascript:aplicirajNaOglas(<?=$row['id_kompanije'];?>, <?=$row['id'];?>)">Apliciraj</a>
+										<?php
 									}else{
 										echo "<br>Već ste prijavljeni na ovaj oglas!";
-									}
-								}else if(isset($_SESSION['id_kompanije'])){
-									/* Ukoliko je korisnik ulogoan kao kompanija */
-									if($row['profil_kompanije'] == $_SESSION['id_kompanije']){
-										?>
-											<a class="btn" style="display:block;float:left;margin:0 10px 20px 0;" href="<?=$url_home;?>kompanije/pregled-aplikacija.php?id=<?=$row['id'];?>">Pregledaj aplikacije</a>
-											<a class="btn" style="display:block;float:left;margin:0 10px 20px 0;" href="<?=$url_home;?>kompanije/edit-oglas.php?id=<?=$row['id'];?>">Izmijeni oglas</a>
-
-											<div style="clear:both;"></div>
-										<?php
 									}
 								}
 							?>
