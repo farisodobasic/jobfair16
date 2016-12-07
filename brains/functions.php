@@ -395,11 +395,9 @@
 								if(isset($_SESSION['id_korisnika'])){
 									/* Chekiraj ako je korisnik ulogovan */
 								
-									if(count($is_applied)==0){
+									
 										?><a class="btn" href="javascript:aplicirajNaOglas(<?=$row['id_kompanije'];?>, <?=$row['id'];?>)">Apliciraj</a>
 										<?php
-									}else{
-										echo "<br>Već ste prijavljeni na ovaj oglas!";
 									}
 								}
 							?>
