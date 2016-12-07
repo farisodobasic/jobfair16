@@ -314,7 +314,7 @@
 								<h1><?=$row['naziv_pozicije'];?></h1>
 								<h2><?=$row['naziv_kompanije'];?></h2>
 								Kategorija: <?=$row['kat'];?><br />
-								Vještine: HTML/CSS, PHP, WordPress<br />
+								<br />
 								Deadline: <b><?=date('d.m.Y', strtotime($row['konkurs_end']));?></b><br />
 								<a target="_blank" href="<?=$url_home;?>kompanije/oglas.php?id=<?=$row['id'];?>">Pročitaj detaljno</a>
 

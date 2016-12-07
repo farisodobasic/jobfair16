@@ -15,4 +15,5 @@
 <a href="<?=$url_home;?>user" class="sidebar-element">  <i class="icon home-icon"></i> <p class="hidden-info">Home</p>  <div style="clear:both;"></div></a>
 <a href="<?=$url_home;?>user/cv.php" class="sidebar-element">  <i class="icon edit-icon"></i> <p class="hidden-info">Edit CV </p> <div style="clear:both;"></div></a>
 <a href="<?=$url_home;?>user/moj-cv.php" class="sidebar-element">  <i class="icon overview-icon"></i> <p class="hidden-info">Moj CV</p> <div style="clear:both;"></div></a>
+<a href="<?=$url_home;?>user/oglasi-svi.php" class="sidebar-element">  <i class="icon edit-icon"></i> <p class="hidden-info">Oglasi</p> <div style="clear:both;"></div></a>
 <a href="<?=$url_home;?>user/logout.php" class="sidebar-element">  <i class="icon logout-icon"></i> <p class="hidden-info">Logout</p> <div style="clear:both;"></div></a>
