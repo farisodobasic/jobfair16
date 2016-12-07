@@ -48,7 +48,7 @@
           $kompanija = $_SESSION['id_kompanije'];
 
           /* Kveri koji vadi sve oglase kompanije */
-          $oglasi = $db->query("SELECT jf_oglasi.* FROM jf_oglasi") or die(mysqli_error($db));
+          $oglasi = $db->query("SELECT * FROM jf_oglasi") or die(mysqli_error($db));
 
           
           /* Renderuj oglase */
@@ -56,7 +56,7 @@
         <div class="long-scroller">
           <div class="section-holder">
             <?php
-              render_oglasi($oglasi, "Nema aktivnih oglasa.");
+              render_oglasiPublic($oglasi, "Nema aktivnih oglasa.");
             ?>
           </div>
         
