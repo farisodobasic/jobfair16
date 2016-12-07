@@ -52,7 +52,7 @@
           $kompanija = $_SESSION['id_kompanije'];
 
           /* Kveri koji vadi sve oglase ove kompanije */
-          $oglasi = $db->query("SELECT jf_oglasi.*, jf_kompanije.naziv as naziv_kompanije, jf_kompanije.id as id_kompanije, jf_djelatnost.naziv as kat, jf_kompanije.profil as profil_kompanije FROM jf_oglasi") or die(mysqli_error($db));
+          $oglasi = $db->query("SELECT jf_oglasi.* FROM jf_oglasi") or die(mysqli_error($db));
 
           
           /* Renderuj oglase */
