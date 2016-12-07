@@ -398,7 +398,7 @@
 									
 										?><a class="btn" href="javascript:aplicirajNaOglas(<?=$row['id_kompanije'];?>, <?=$row['id'];?>)">Apliciraj</a>
 										<?php
-									}
+									
 								}
 							?>
 			</div>
