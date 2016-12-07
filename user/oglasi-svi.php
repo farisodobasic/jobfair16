@@ -1,7 +1,6 @@
 <?php
 	require_once('../brains/global.php');
-	require_once('../brains/config.php');   
-   
+	
 	require_once('../brains/global_student.php');
 	//session_destroy();
 ?>
@@ -34,11 +33,7 @@
             <a href="javascript:void(0);" class="whole-btn neaktivni-olgasi-scroll"><img style="margin-bottom:-6px;margin-right:10px;" src="<?=$url_home;?>icons/quit.png" /> Istekli oglasi</a>
 
             <div style="clear:both;"></div>
-          </div>
-					<div class="section">
-						<?php basic_info($_SESSION['id_kompanije']);?>
-		      </div>
-
+         
 		        <input type="hidden" class="koliko-value" />
 			</div>
 			<div class="right-col">
@@ -49,10 +44,9 @@
         	provjeri_oglase();
 
           /* ID komapnije */
-          $kompanija = $_SESSION['id_kompanije'];
-
-          /* Kveri koji vadi sve oglase ove kompanije */
-          $oglasi = $db->query("SELECT jf_oglasi.* FROM jf_oglasi") or die(mysqli_error($db));
+          
+          /* Kveri koji vadi sve oglase kompanije */
+          $oglasi = $db->query("SELECT jf_oglasi FROM jf_oglasi") or die(mysqli_error($db));
 
           
           /* Renderuj oglase */
