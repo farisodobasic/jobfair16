@@ -2274,6 +2274,42 @@ div.logo a {
     }
 }
 
+.srebro_elvir > li {
+    margin-top: 5px;
+}
+
+.srebro_elvir > li > a > img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.generalni_elvir > li {
+    margin-top: 5px;
+}
+
+.generalni_elvir > li > a > img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.ucesnici_elvir > li {
+    margin-top: 5px;
+}
+.ucesnici_elvir > li > a > img {
+    margin-top: 5px;
+    width: 200px;
+    height: 80px;
+}
+
+.partneri_elvir > li > img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.partneri_elvir > li > a > img {
+    width: 300px;
+    margin: 0 auto;
+}
 @media(max-width:960px)
 {
     #reklama{
