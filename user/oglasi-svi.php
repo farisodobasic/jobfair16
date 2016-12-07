@@ -30,14 +30,10 @@
     <section class="main-holder">
 			<div class="left-col">
           <div class="section" style="padding:0;width:350px;border-bottom:0;">
-            <a href="javascript:void(0);" class="whole-btn aktivni-olgasi-scroll aktivan-whole"><img style="margin-bottom:-6px;margin-right:10px;" src="<?=$url_home;?>icons/novo.png" /> Aktuelni oglasi</a>
-            <a href="javascript:void(0);" class="whole-btn neaktivni-olgasi-scroll"><img style="margin-bottom:-6px;margin-right:10px;" src="<?=$url_home;?>icons/quit.png" /> Istekli oglasi</a>
 
             <div style="clear:both;"></div>
           </div>
-					<div class="section">
-						<?php basic_info($_SESSION['id_kompanije']);?>
-		      </div>
+					
 
 		        <input type="hidden" class="koliko-value" />
 			</div>
