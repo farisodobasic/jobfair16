@@ -56,7 +56,7 @@
         <div class="long-scroller">
           <div class="section-holder">
             <?php
-              render_oglasiPublic($oglasi, "Nema aktivnih oglasa.");
+              render_oglasi($oglasi, "Nema aktivnih oglasa.");
             ?>
           </div>
         
