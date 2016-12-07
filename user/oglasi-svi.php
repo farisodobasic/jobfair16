@@ -1,5 +1,7 @@
 <?php
-	require_once('../brains/global.php');   
+	require_once('../brains/global.php');
+	require_once('../brains/config.php');   
+   
 	require_once('../brains/global_student.php');
 	//session_destroy();
 ?>
@@ -58,7 +60,7 @@
         <div class="long-scroller">
           <div class="section-holder">
             <?php
-              render_oglasiPublic($oglasi, "Nema aktivnih oglasa.");
+              render_oglasi($oglasi, "Nema aktivnih oglasa.");
             ?>
           </div>
         
